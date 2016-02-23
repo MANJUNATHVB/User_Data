@@ -1,0 +1,1396 @@
+2016-02-10 11:53:38,654 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 11:53:38,685 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 11:53:39,767 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 11:53:39,777 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 11:53:55,208 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring root WebApplicationContext
+2016-02-10 11:54:04,145 [localhost-startStop-1] INFO  hibernate4.HibernatePluginSupport  - Set db generation strategy to 'update' for datasource DEFAULT
+2016-02-10 11:54:05,648 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanDefinitionRegistry start
+2016-02-10 11:54:05,679 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanFactory
+2016-02-10 11:54:10,459 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-10 11:54:10,990 [localhost-startStop-1] WARN  config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/SYS-25/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+2016-02-10 11:54:16,660 [localhost-startStop-1] INFO  scaffolding.AbstractGrailsTemplateGenerator  - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@287ff99a: startup date [Wed Feb 10 11:54:04 IST 2016]; parent: Root WebApplicationContext]
+2016-02-10 11:54:22,777 [localhost-startStop-1] INFO  databasemigration.MigrationRunner  - updateOnStart disabled for dataSource; not running migrations
+2016-02-10 11:54:22,878 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - configuring scaffolding...
+2016-02-10 11:54:22,888 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - done configuring scaffolding.
+2016-02-10 11:54:23,028 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-10 11:54:23,028 [localhost-startStop-1] INFO  context.GrailsConfigUtils  - [GrailsContextLoader] Grails application loaded.
+2016-02-10 11:54:23,408 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'grails'
+2016-02-10 11:54:23,678 [main] INFO  http11.Http11Protocol  - Starting ProtocolHandler ["http-bio-8080"]
+2016-02-10 11:55:17,427 [http-bio-8080-exec-5] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'gsp'
+2016-02-10 11:55:17,427 [http-bio-8080-exec-5] INFO  [localhost].[/UserData]  - GSP servlet initialized
+2016-02-10 12:00:32,175 [http-bio-8080-exec-2] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 12:00:32,184 [http-bio-8080-exec-2] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 12:00:32,184 [http-bio-8080-exec-2] INFO  userdata.PersonController  - 1
+2016-02-10 12:00:32,184 [http-bio-8080-exec-2] INFO  userdata.PersonController  - ccccc
+2016-02-10 12:00:32,184 [http-bio-8080-exec-2] INFO  userdata.PersonController  - vvvvv
+2016-02-10 12:00:32,184 [http-bio-8080-exec-2] INFO  userdata.PersonController  - 24
+2016-02-10 12:00:32,184 [http-bio-8080-exec-2] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 12:00:32,184 [http-bio-8080-exec-2] INFO  userdata.PersonController  - ************************
+2016-02-10 12:00:32,397 [http-bio-8080-exec-2] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 12:00:32,520 [http-bio-8080-exec-2] INFO  userdata.PersonService  - PersonService save Exception::org.springframework.core.convert.ConversionFailedException: Failed to convert from type java.lang.String to type int for value 'ccccc'; nested exception is java.lang.NumberFormatException: For input string: "ccccc"
+2016-02-10 12:00:32,532 [http-bio-8080-exec-2] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 12:00:32,532 [http-bio-8080-exec-2] INFO  userdata.PersonController  - null
+2016-02-10 12:00:32,565 [http-bio-8080-exec-2] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 12:10:44,209 [Thread-11] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\controllers\userdata\PersonController.groovy] changed. Applying changes to application.
+2016-02-10 12:10:44,249 [Thread-8] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\controllers\userdata\PersonController.groovy] changed. Applying changes to application.
+2016-02-10 12:10:45,674 [Thread-11] ERROR compiler.GrailsProjectWatcher  - Compilation Error: startup failed:
+C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\controllers\userdata\PersonController.groovy: 7: unable to resolve class com.ecognosys.cipladm.Appointment
+ @ line 7, column 1.
+   import com.ecognosys.cipladm.Appointment;
+   ^
+
+1 error
+
+2016-02-10 12:10:45,730 [Thread-8] ERROR compiler.GrailsProjectWatcher  - Compilation Error: startup failed:
+C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\controllers\userdata\PersonController.groovy: 7: unable to resolve class com.ecognosys.cipladm.Appointment
+ @ line 7, column 1.
+   import com.ecognosys.cipladm.Appointment;
+   ^
+
+1 error
+
+2016-02-10 12:12:51,199 [Thread-11] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\controllers\userdata\PersonController.groovy] changed. Applying changes to application.
+2016-02-10 12:12:51,199 [Thread-8] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\controllers\userdata\PersonController.groovy] changed. Applying changes to application.
+2016-02-10 12:12:52,292 [Thread-11] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\controllers\userdata\PersonController.groovy] changed. Applying changes to application.
+2016-02-10 12:13:18,628 [Thread-3] INFO  http11.Http11Protocol  - Pausing ProtocolHandler ["http-bio-8080"]
+2016-02-10 12:13:18,628 [Thread-3] INFO  core.StandardService  - Stopping service Tomcat
+2016-02-10 12:13:18,628 [localhost-startStop-2] INFO  [localhost].[/UserData]  - Destroying Spring FrameworkServlet 'grails'
+2016-02-10 12:13:18,678 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in userdata.Person
+2016-02-10 12:13:18,678 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in userdata.Person
+2016-02-10 12:13:18,688 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in userdata.Person
+2016-02-10 12:13:18,908 [localhost-startStop-2] INFO  [localhost].[/UserData]  - Destroying Spring FrameworkServlet 'gsp'
+2016-02-10 12:13:18,918 [Thread-3] INFO  http11.Http11Protocol  - Stopping ProtocolHandler ["http-bio-8080"]
+2016-02-10 12:13:18,928 [Thread-3] INFO  http11.Http11Protocol  - Destroying ProtocolHandler ["http-bio-8080"]
+2016-02-10 12:13:42,999 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 12:13:43,040 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 12:13:44,052 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 12:13:44,052 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 12:13:52,482 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring root WebApplicationContext
+2016-02-10 12:14:00,921 [localhost-startStop-1] INFO  hibernate4.HibernatePluginSupport  - Set db generation strategy to 'update' for datasource DEFAULT
+2016-02-10 12:14:02,190 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanDefinitionRegistry start
+2016-02-10 12:14:02,200 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanFactory
+2016-02-10 12:14:03,411 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-10 12:14:03,553 [localhost-startStop-1] WARN  config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/SYS-25/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+2016-02-10 12:14:06,573 [localhost-startStop-1] INFO  scaffolding.AbstractGrailsTemplateGenerator  - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@2e52a517: startup date [Wed Feb 10 12:14:01 IST 2016]; parent: Root WebApplicationContext]
+2016-02-10 12:14:11,332 [localhost-startStop-1] INFO  databasemigration.MigrationRunner  - updateOnStart disabled for dataSource; not running migrations
+2016-02-10 12:14:11,373 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - configuring scaffolding...
+2016-02-10 12:14:11,383 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - done configuring scaffolding.
+2016-02-10 12:14:11,473 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-10 12:14:11,473 [localhost-startStop-1] INFO  context.GrailsConfigUtils  - [GrailsContextLoader] Grails application loaded.
+2016-02-10 12:14:11,683 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'grails'
+2016-02-10 12:14:11,813 [main] INFO  http11.Http11Protocol  - Starting ProtocolHandler ["http-bio-8080"]
+2016-02-10 12:14:33,584 [http-bio-8080-exec-5] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'gsp'
+2016-02-10 12:14:33,584 [http-bio-8080-exec-5] INFO  [localhost].[/UserData]  - GSP servlet initialized
+2016-02-10 12:15:03,657 [http-bio-8080-exec-5] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 12:15:03,671 [http-bio-8080-exec-5] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 12:15:03,671 [http-bio-8080-exec-5] INFO  userdata.PersonController  - 1
+2016-02-10 12:15:03,671 [http-bio-8080-exec-5] INFO  userdata.PersonController  - ccccc
+2016-02-10 12:15:03,671 [http-bio-8080-exec-5] INFO  userdata.PersonController  - vvvvv
+2016-02-10 12:15:03,672 [http-bio-8080-exec-5] INFO  userdata.PersonController  - 24
+2016-02-10 12:15:03,672 [http-bio-8080-exec-5] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 12:15:03,672 [http-bio-8080-exec-5] INFO  userdata.PersonController  - ************************
+2016-02-10 12:15:03,749 [http-bio-8080-exec-5] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 12:15:03,831 [http-bio-8080-exec-5] INFO  userdata.PersonService  - PersonService save Exception::org.springframework.core.convert.ConversionFailedException: Failed to convert from type java.lang.String to type int for value 'ccccc'; nested exception is java.lang.NumberFormatException: For input string: "ccccc"
+2016-02-10 12:15:03,843 [http-bio-8080-exec-5] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 12:15:03,843 [http-bio-8080-exec-5] INFO  userdata.PersonController  - null
+2016-02-10 12:15:03,874 [http-bio-8080-exec-5] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 12:15:05,355 [http-bio-8080-exec-6] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 12:15:05,366 [http-bio-8080-exec-6] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 12:15:05,367 [http-bio-8080-exec-6] INFO  userdata.PersonController  - 1
+2016-02-10 12:15:05,367 [http-bio-8080-exec-6] INFO  userdata.PersonController  - ccccc
+2016-02-10 12:15:05,367 [http-bio-8080-exec-6] INFO  userdata.PersonController  - vvvvv
+2016-02-10 12:15:05,368 [http-bio-8080-exec-6] INFO  userdata.PersonController  - 24
+2016-02-10 12:15:05,368 [http-bio-8080-exec-6] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 12:15:05,368 [http-bio-8080-exec-6] INFO  userdata.PersonController  - ************************
+2016-02-10 12:15:05,370 [http-bio-8080-exec-6] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 12:15:05,375 [http-bio-8080-exec-6] INFO  userdata.PersonService  - PersonService save Exception::org.springframework.core.convert.ConversionFailedException: Failed to convert from type java.lang.String to type int for value 'ccccc'; nested exception is java.lang.NumberFormatException: For input string: "ccccc"
+2016-02-10 12:15:05,378 [http-bio-8080-exec-6] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 12:15:05,378 [http-bio-8080-exec-6] INFO  userdata.PersonController  - null
+2016-02-10 12:15:05,417 [http-bio-8080-exec-6] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 12:15:06,497 [http-bio-8080-exec-3] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 12:15:06,497 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 12:15:06,497 [http-bio-8080-exec-3] INFO  userdata.PersonController  - 1
+2016-02-10 12:15:06,497 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ccccc
+2016-02-10 12:15:06,497 [http-bio-8080-exec-3] INFO  userdata.PersonController  - vvvvv
+2016-02-10 12:15:06,497 [http-bio-8080-exec-3] INFO  userdata.PersonController  - 24
+2016-02-10 12:15:06,497 [http-bio-8080-exec-3] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 12:15:06,497 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ************************
+2016-02-10 12:15:06,497 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 12:15:06,497 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService save Exception::org.springframework.core.convert.ConversionFailedException: Failed to convert from type java.lang.String to type int for value 'ccccc'; nested exception is java.lang.NumberFormatException: For input string: "ccccc"
+2016-02-10 12:15:06,497 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 12:15:06,497 [http-bio-8080-exec-3] INFO  userdata.PersonController  - null
+2016-02-10 12:15:06,542 [http-bio-8080-exec-3] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 12:15:20,553 [http-bio-8080-exec-3] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 12:15:20,553 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 12:15:20,553 [http-bio-8080-exec-3] INFO  userdata.PersonController  - 1
+2016-02-10 12:15:20,553 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ccccc
+2016-02-10 12:15:20,553 [http-bio-8080-exec-3] INFO  userdata.PersonController  - vvvvv
+2016-02-10 12:15:20,553 [http-bio-8080-exec-3] INFO  userdata.PersonController  - 24
+2016-02-10 12:15:20,553 [http-bio-8080-exec-3] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 12:15:20,553 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ************************
+2016-02-10 12:15:20,553 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 12:15:20,553 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService save Exception::org.springframework.core.convert.ConversionFailedException: Failed to convert from type java.lang.String to type int for value 'ccccc'; nested exception is java.lang.NumberFormatException: For input string: "ccccc"
+2016-02-10 12:15:20,563 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 12:15:20,563 [http-bio-8080-exec-3] INFO  userdata.PersonController  - null
+2016-02-10 12:15:20,606 [http-bio-8080-exec-3] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 12:15:58,261 [http-bio-8080-exec-3] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 12:15:58,272 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 12:15:58,272 [http-bio-8080-exec-3] INFO  userdata.PersonController  - 1
+2016-02-10 12:15:58,272 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ccccc
+2016-02-10 12:15:58,272 [http-bio-8080-exec-3] INFO  userdata.PersonController  - vvvvv
+2016-02-10 12:15:58,273 [http-bio-8080-exec-3] INFO  userdata.PersonController  - 24
+2016-02-10 12:15:58,273 [http-bio-8080-exec-3] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 12:15:58,273 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ************************
+2016-02-10 12:15:58,274 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 12:15:58,275 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService save Exception::org.springframework.core.convert.ConversionFailedException: Failed to convert from type java.lang.String to type int for value 'ccccc'; nested exception is java.lang.NumberFormatException: For input string: "ccccc"
+2016-02-10 12:15:58,275 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 12:15:58,275 [http-bio-8080-exec-3] INFO  userdata.PersonController  - null
+2016-02-10 12:15:58,325 [http-bio-8080-exec-3] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 12:16:01,554 [http-bio-8080-exec-3] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 12:16:01,564 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 12:16:01,564 [http-bio-8080-exec-3] INFO  userdata.PersonController  - 1
+2016-02-10 12:16:01,564 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ccccc
+2016-02-10 12:16:01,564 [http-bio-8080-exec-3] INFO  userdata.PersonController  - vvvvv
+2016-02-10 12:16:01,564 [http-bio-8080-exec-3] INFO  userdata.PersonController  - 24
+2016-02-10 12:16:01,564 [http-bio-8080-exec-3] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 12:16:01,564 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ************************
+2016-02-10 12:16:01,564 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 12:16:01,564 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService save Exception::org.springframework.core.convert.ConversionFailedException: Failed to convert from type java.lang.String to type int for value 'ccccc'; nested exception is java.lang.NumberFormatException: For input string: "ccccc"
+2016-02-10 12:16:01,564 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 12:16:01,564 [http-bio-8080-exec-3] INFO  userdata.PersonController  - null
+2016-02-10 12:16:01,625 [http-bio-8080-exec-3] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 12:34:10,138 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 12:34:10,175 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 12:34:11,083 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 12:34:11,093 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 12:34:55,225 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 12:34:55,270 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 12:34:56,237 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 12:34:56,244 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 12:35:30,270 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 12:35:30,316 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 12:35:31,382 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 12:35:31,391 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 12:36:13,969 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 12:36:14,005 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 12:36:14,956 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 12:36:14,965 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 12:36:55,473 [http-bio-8080-exec-1] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 12:36:55,483 [http-bio-8080-exec-1] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 12:36:55,483 [http-bio-8080-exec-1] INFO  userdata.PersonController  - 1
+2016-02-10 12:36:55,483 [http-bio-8080-exec-1] INFO  userdata.PersonController  - ccccc
+2016-02-10 12:36:55,483 [http-bio-8080-exec-1] INFO  userdata.PersonController  - vvvvv
+2016-02-10 12:36:55,483 [http-bio-8080-exec-1] INFO  userdata.PersonController  - 24
+2016-02-10 12:36:55,483 [http-bio-8080-exec-1] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 12:36:55,483 [http-bio-8080-exec-1] INFO  userdata.PersonController  - ************************
+2016-02-10 12:36:55,486 [http-bio-8080-exec-1] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 12:36:55,486 [http-bio-8080-exec-1] INFO  userdata.PersonService  - PersonService save Exception::org.springframework.core.convert.ConversionFailedException: Failed to convert from type java.lang.String to type int for value 'ccccc'; nested exception is java.lang.NumberFormatException: For input string: "ccccc"
+2016-02-10 12:36:55,487 [http-bio-8080-exec-1] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 12:36:55,487 [http-bio-8080-exec-1] INFO  userdata.PersonController  - null
+2016-02-10 12:36:55,533 [http-bio-8080-exec-1] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 12:36:59,817 [http-bio-8080-exec-1] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 12:36:59,818 [http-bio-8080-exec-1] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 12:36:59,819 [http-bio-8080-exec-1] INFO  userdata.PersonController  - 1
+2016-02-10 12:36:59,819 [http-bio-8080-exec-1] INFO  userdata.PersonController  - ccccc
+2016-02-10 12:36:59,819 [http-bio-8080-exec-1] INFO  userdata.PersonController  - vvvvv
+2016-02-10 12:36:59,819 [http-bio-8080-exec-1] INFO  userdata.PersonController  - 24
+2016-02-10 12:36:59,819 [http-bio-8080-exec-1] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 12:36:59,820 [http-bio-8080-exec-1] INFO  userdata.PersonController  - ************************
+2016-02-10 12:36:59,821 [http-bio-8080-exec-1] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 12:36:59,822 [http-bio-8080-exec-1] INFO  userdata.PersonService  - PersonService save Exception::org.springframework.core.convert.ConversionFailedException: Failed to convert from type java.lang.String to type int for value 'ccccc'; nested exception is java.lang.NumberFormatException: For input string: "ccccc"
+2016-02-10 12:36:59,826 [http-bio-8080-exec-1] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 12:36:59,826 [http-bio-8080-exec-1] INFO  userdata.PersonController  - null
+2016-02-10 12:36:59,869 [http-bio-8080-exec-1] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 12:48:25,156 [Thread-8] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\controllers\userdata\PersonController.groovy] changed. Applying changes to application.
+2016-02-10 12:48:25,196 [Thread-10] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\controllers\userdata\PersonController.groovy] changed. Applying changes to application.
+2016-02-10 12:48:27,074 [Thread-8] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\controllers\userdata\PersonController.groovy] changed. Applying changes to application.
+2016-02-10 12:48:27,168 [Thread-10] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\controllers\userdata\PersonController.groovy] changed. Applying changes to application.
+2016-02-10 12:48:45,457 [http-bio-8080-exec-10] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 12:48:45,465 [http-bio-8080-exec-10] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 12:48:45,466 [http-bio-8080-exec-10] INFO  userdata.PersonController  - 1
+2016-02-10 12:48:45,466 [http-bio-8080-exec-10] INFO  userdata.PersonController  - ccccc
+2016-02-10 12:48:45,466 [http-bio-8080-exec-10] INFO  userdata.PersonController  - vvvvv
+2016-02-10 12:48:45,466 [http-bio-8080-exec-10] INFO  userdata.PersonController  - 24
+2016-02-10 12:48:45,467 [http-bio-8080-exec-10] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 12:48:45,467 [http-bio-8080-exec-10] INFO  userdata.PersonController  - ************************
+2016-02-10 12:48:45,467 [http-bio-8080-exec-10] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 12:48:45,468 [http-bio-8080-exec-10] INFO  userdata.PersonService  - PersonService save Exception::org.springframework.core.convert.ConversionFailedException: Failed to convert from type java.lang.String to type int for value 'ccccc'; nested exception is java.lang.NumberFormatException: For input string: "ccccc"
+2016-02-10 12:48:45,469 [http-bio-8080-exec-10] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 12:48:45,469 [http-bio-8080-exec-10] INFO  userdata.PersonController  - null
+2016-02-10 12:48:45,526 [http-bio-8080-exec-10] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 12:48:53,270 [http-bio-8080-exec-8] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 12:48:53,273 [http-bio-8080-exec-8] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 12:48:53,273 [http-bio-8080-exec-8] INFO  userdata.PersonController  - 1
+2016-02-10 12:48:53,273 [http-bio-8080-exec-8] INFO  userdata.PersonController  - ccccc
+2016-02-10 12:48:53,273 [http-bio-8080-exec-8] INFO  userdata.PersonController  - vvvvv
+2016-02-10 12:48:53,273 [http-bio-8080-exec-8] INFO  userdata.PersonController  - 24
+2016-02-10 12:48:53,273 [http-bio-8080-exec-8] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 12:48:53,273 [http-bio-8080-exec-8] INFO  userdata.PersonController  - ************************
+2016-02-10 12:48:53,274 [http-bio-8080-exec-8] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 12:48:53,274 [http-bio-8080-exec-8] INFO  userdata.PersonService  - PersonService save Exception::org.springframework.core.convert.ConversionFailedException: Failed to convert from type java.lang.String to type int for value 'ccccc'; nested exception is java.lang.NumberFormatException: For input string: "ccccc"
+2016-02-10 12:48:53,275 [http-bio-8080-exec-8] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 12:48:53,275 [http-bio-8080-exec-8] INFO  userdata.PersonController  - null
+2016-02-10 12:48:53,315 [http-bio-8080-exec-8] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 12:50:06,076 [Thread-8] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\controllers\userdata\PersonController.groovy] changed. Applying changes to application.
+2016-02-10 12:50:06,076 [Thread-10] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\controllers\userdata\PersonController.groovy] changed. Applying changes to application.
+2016-02-10 13:02:31,647 [http-bio-8080-exec-2] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 13:02:31,655 [http-bio-8080-exec-2] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 13:02:31,655 [http-bio-8080-exec-2] INFO  userdata.PersonController  - 1
+2016-02-10 13:02:31,655 [http-bio-8080-exec-2] INFO  userdata.PersonController  - "ccccc"
+2016-02-10 13:02:31,655 [http-bio-8080-exec-2] INFO  userdata.PersonController  - "vvvvv"
+2016-02-10 13:02:31,655 [http-bio-8080-exec-2] INFO  userdata.PersonController  - 24
+2016-02-10 13:02:31,656 [http-bio-8080-exec-2] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 13:02:31,656 [http-bio-8080-exec-2] INFO  userdata.PersonController  - ************************
+2016-02-10 13:02:31,656 [http-bio-8080-exec-2] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 13:02:31,657 [http-bio-8080-exec-2] INFO  userdata.PersonService  - PersonService save Exception::org.springframework.core.convert.ConversionFailedException: Failed to convert from type java.lang.String to type int for value '"ccccc"'; nested exception is java.lang.NumberFormatException: For input string: ""ccccc""
+2016-02-10 13:02:31,657 [http-bio-8080-exec-2] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 13:02:31,657 [http-bio-8080-exec-2] INFO  userdata.PersonController  - null
+2016-02-10 13:02:31,754 [http-bio-8080-exec-2] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 13:02:48,545 [http-bio-8080-exec-2] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 13:02:48,550 [http-bio-8080-exec-2] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 13:02:48,550 [http-bio-8080-exec-2] INFO  userdata.PersonController  - 1
+2016-02-10 13:02:48,550 [http-bio-8080-exec-2] INFO  userdata.PersonController  - "ccccc"
+2016-02-10 13:02:48,551 [http-bio-8080-exec-2] INFO  userdata.PersonController  - "vvvvv"
+2016-02-10 13:02:48,551 [http-bio-8080-exec-2] INFO  userdata.PersonController  - 24
+2016-02-10 13:02:48,551 [http-bio-8080-exec-2] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 13:02:48,551 [http-bio-8080-exec-2] INFO  userdata.PersonController  - ************************
+2016-02-10 13:02:48,551 [http-bio-8080-exec-2] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 13:02:48,551 [http-bio-8080-exec-2] INFO  userdata.PersonService  - PersonService save Exception::org.springframework.core.convert.ConversionFailedException: Failed to convert from type java.lang.String to type int for value '"ccccc"'; nested exception is java.lang.NumberFormatException: For input string: ""ccccc""
+2016-02-10 13:02:48,552 [http-bio-8080-exec-2] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 13:02:48,552 [http-bio-8080-exec-2] INFO  userdata.PersonController  - null
+2016-02-10 13:02:48,588 [http-bio-8080-exec-2] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 13:04:37,398 [Thread-10] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-10 13:04:37,428 [Thread-8] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-10 13:04:38,245 [Thread-10] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-10 13:04:44,690 [http-bio-8080-exec-3] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 13:04:44,691 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 13:04:44,691 [http-bio-8080-exec-3] INFO  userdata.PersonController  - 1
+2016-02-10 13:04:44,691 [http-bio-8080-exec-3] INFO  userdata.PersonController  - "ccccc"
+2016-02-10 13:04:44,692 [http-bio-8080-exec-3] INFO  userdata.PersonController  - "vvvvv"
+2016-02-10 13:04:44,692 [http-bio-8080-exec-3] INFO  userdata.PersonController  - 24
+2016-02-10 13:04:44,692 [http-bio-8080-exec-3] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 13:04:44,692 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ************************
+2016-02-10 13:04:44,704 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 13:04:44,705 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService save Exception::org.springframework.core.convert.ConversionFailedException: Failed to convert from type java.lang.String to type int for value '"ccccc"'; nested exception is java.lang.NumberFormatException: For input string: ""ccccc""
+2016-02-10 13:04:44,705 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 13:04:44,705 [http-bio-8080-exec-3] INFO  userdata.PersonController  - null
+2016-02-10 13:04:44,758 [http-bio-8080-exec-3] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 13:04:47,467 [http-bio-8080-exec-3] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 13:04:47,477 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 13:04:47,477 [http-bio-8080-exec-3] INFO  userdata.PersonController  - 1
+2016-02-10 13:04:47,477 [http-bio-8080-exec-3] INFO  userdata.PersonController  - "ccccc"
+2016-02-10 13:04:47,477 [http-bio-8080-exec-3] INFO  userdata.PersonController  - "vvvvv"
+2016-02-10 13:04:47,478 [http-bio-8080-exec-3] INFO  userdata.PersonController  - 24
+2016-02-10 13:04:47,478 [http-bio-8080-exec-3] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 13:04:47,478 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ************************
+2016-02-10 13:04:47,478 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 13:04:47,478 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService save Exception::org.springframework.core.convert.ConversionFailedException: Failed to convert from type java.lang.String to type int for value '"ccccc"'; nested exception is java.lang.NumberFormatException: For input string: ""ccccc""
+2016-02-10 13:04:47,479 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 13:04:47,479 [http-bio-8080-exec-3] INFO  userdata.PersonController  - null
+2016-02-10 13:04:47,507 [http-bio-8080-exec-3] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 13:04:49,691 [http-bio-8080-exec-3] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 13:04:49,693 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 13:04:49,693 [http-bio-8080-exec-3] INFO  userdata.PersonController  - 1
+2016-02-10 13:04:49,694 [http-bio-8080-exec-3] INFO  userdata.PersonController  - "ccccc"
+2016-02-10 13:04:49,694 [http-bio-8080-exec-3] INFO  userdata.PersonController  - "vvvvv"
+2016-02-10 13:04:49,694 [http-bio-8080-exec-3] INFO  userdata.PersonController  - 24
+2016-02-10 13:04:49,694 [http-bio-8080-exec-3] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 13:04:49,694 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ************************
+2016-02-10 13:04:49,694 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 13:04:49,695 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService save Exception::org.springframework.core.convert.ConversionFailedException: Failed to convert from type java.lang.String to type int for value '"ccccc"'; nested exception is java.lang.NumberFormatException: For input string: ""ccccc""
+2016-02-10 13:04:49,695 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 13:04:49,695 [http-bio-8080-exec-3] INFO  userdata.PersonController  - null
+2016-02-10 13:04:49,731 [http-bio-8080-exec-3] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 13:04:50,576 [http-bio-8080-exec-3] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 13:04:50,580 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 13:04:50,581 [http-bio-8080-exec-3] INFO  userdata.PersonController  - 1
+2016-02-10 13:04:50,581 [http-bio-8080-exec-3] INFO  userdata.PersonController  - "ccccc"
+2016-02-10 13:04:50,581 [http-bio-8080-exec-3] INFO  userdata.PersonController  - "vvvvv"
+2016-02-10 13:04:50,581 [http-bio-8080-exec-3] INFO  userdata.PersonController  - 24
+2016-02-10 13:04:50,582 [http-bio-8080-exec-3] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 13:04:50,582 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ************************
+2016-02-10 13:04:50,585 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 13:04:50,586 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService save Exception::org.springframework.core.convert.ConversionFailedException: Failed to convert from type java.lang.String to type int for value '"ccccc"'; nested exception is java.lang.NumberFormatException: For input string: ""ccccc""
+2016-02-10 13:04:50,590 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 13:04:50,590 [http-bio-8080-exec-3] INFO  userdata.PersonController  - null
+2016-02-10 13:04:50,620 [http-bio-8080-exec-3] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 13:04:51,353 [http-bio-8080-exec-3] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 13:04:51,365 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 13:04:51,367 [http-bio-8080-exec-3] INFO  userdata.PersonController  - 1
+2016-02-10 13:04:51,367 [http-bio-8080-exec-3] INFO  userdata.PersonController  - "ccccc"
+2016-02-10 13:04:51,367 [http-bio-8080-exec-3] INFO  userdata.PersonController  - "vvvvv"
+2016-02-10 13:04:51,367 [http-bio-8080-exec-3] INFO  userdata.PersonController  - 24
+2016-02-10 13:04:51,367 [http-bio-8080-exec-3] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 13:04:51,368 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ************************
+2016-02-10 13:04:51,369 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 13:04:51,370 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService save Exception::org.springframework.core.convert.ConversionFailedException: Failed to convert from type java.lang.String to type int for value '"ccccc"'; nested exception is java.lang.NumberFormatException: For input string: ""ccccc""
+2016-02-10 13:04:51,370 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 13:04:51,370 [http-bio-8080-exec-3] INFO  userdata.PersonController  - null
+2016-02-10 13:04:51,409 [http-bio-8080-exec-3] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 13:04:51,611 [http-bio-8080-exec-3] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 13:04:51,611 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 13:04:51,611 [http-bio-8080-exec-3] INFO  userdata.PersonController  - 1
+2016-02-10 13:04:51,611 [http-bio-8080-exec-3] INFO  userdata.PersonController  - "ccccc"
+2016-02-10 13:04:51,611 [http-bio-8080-exec-3] INFO  userdata.PersonController  - "vvvvv"
+2016-02-10 13:04:51,611 [http-bio-8080-exec-3] INFO  userdata.PersonController  - 24
+2016-02-10 13:04:51,611 [http-bio-8080-exec-3] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 13:04:51,611 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ************************
+2016-02-10 13:04:51,611 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 13:04:51,611 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService save Exception::org.springframework.core.convert.ConversionFailedException: Failed to convert from type java.lang.String to type int for value '"ccccc"'; nested exception is java.lang.NumberFormatException: For input string: ""ccccc""
+2016-02-10 13:04:51,611 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 13:04:51,611 [http-bio-8080-exec-3] INFO  userdata.PersonController  - null
+2016-02-10 13:04:51,650 [http-bio-8080-exec-3] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 13:04:51,952 [http-bio-8080-exec-3] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 13:04:51,959 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 13:04:51,959 [http-bio-8080-exec-3] INFO  userdata.PersonController  - 1
+2016-02-10 13:04:51,960 [http-bio-8080-exec-3] INFO  userdata.PersonController  - "ccccc"
+2016-02-10 13:04:51,960 [http-bio-8080-exec-3] INFO  userdata.PersonController  - "vvvvv"
+2016-02-10 13:04:51,960 [http-bio-8080-exec-3] INFO  userdata.PersonController  - 24
+2016-02-10 13:04:51,960 [http-bio-8080-exec-3] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 13:04:51,960 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ************************
+2016-02-10 13:04:51,961 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 13:04:51,962 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService save Exception::org.springframework.core.convert.ConversionFailedException: Failed to convert from type java.lang.String to type int for value '"ccccc"'; nested exception is java.lang.NumberFormatException: For input string: ""ccccc""
+2016-02-10 13:04:51,963 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 13:04:51,963 [http-bio-8080-exec-3] INFO  userdata.PersonController  - null
+2016-02-10 13:04:51,998 [http-bio-8080-exec-3] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 13:04:52,294 [http-bio-8080-exec-3] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 13:04:52,299 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 13:04:52,299 [http-bio-8080-exec-3] INFO  userdata.PersonController  - 1
+2016-02-10 13:04:52,299 [http-bio-8080-exec-3] INFO  userdata.PersonController  - "ccccc"
+2016-02-10 13:04:52,299 [http-bio-8080-exec-3] INFO  userdata.PersonController  - "vvvvv"
+2016-02-10 13:04:52,300 [http-bio-8080-exec-3] INFO  userdata.PersonController  - 24
+2016-02-10 13:04:52,300 [http-bio-8080-exec-3] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 13:04:52,300 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ************************
+2016-02-10 13:04:52,300 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 13:04:52,301 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService save Exception::org.springframework.core.convert.ConversionFailedException: Failed to convert from type java.lang.String to type int for value '"ccccc"'; nested exception is java.lang.NumberFormatException: For input string: ""ccccc""
+2016-02-10 13:04:52,301 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 13:04:52,301 [http-bio-8080-exec-3] INFO  userdata.PersonController  - null
+2016-02-10 13:04:52,332 [http-bio-8080-exec-3] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 13:05:14,664 [http-bio-8080-exec-3] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 13:05:14,674 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 13:05:14,674 [http-bio-8080-exec-3] INFO  userdata.PersonController  - 27
+2016-02-10 13:05:14,675 [http-bio-8080-exec-3] INFO  userdata.PersonController  - "ccccc"
+2016-02-10 13:05:14,675 [http-bio-8080-exec-3] INFO  userdata.PersonController  - "vvvvv"
+2016-02-10 13:05:14,675 [http-bio-8080-exec-3] INFO  userdata.PersonController  - 24
+2016-02-10 13:05:14,675 [http-bio-8080-exec-3] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 13:05:14,675 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ************************
+2016-02-10 13:05:14,676 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 13:05:14,676 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService save Exception::org.springframework.core.convert.ConversionFailedException: Failed to convert from type java.lang.String to type int for value '"ccccc"'; nested exception is java.lang.NumberFormatException: For input string: ""ccccc""
+2016-02-10 13:05:14,677 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 13:05:14,677 [http-bio-8080-exec-3] INFO  userdata.PersonController  - null
+2016-02-10 13:05:14,712 [http-bio-8080-exec-3] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 13:06:23,648 [Thread-3] INFO  http11.Http11Protocol  - Pausing ProtocolHandler ["http-bio-8080"]
+2016-02-10 13:06:23,708 [Thread-3] INFO  core.StandardService  - Stopping service Tomcat
+2016-02-10 13:06:23,718 [localhost-startStop-2] INFO  [localhost].[/UserData]  - Destroying Spring FrameworkServlet 'grails'
+2016-02-10 13:06:23,768 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in userdata.Person
+2016-02-10 13:06:23,778 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in userdata.Person
+2016-02-10 13:06:23,778 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in userdata.Person
+2016-02-10 13:06:23,828 [localhost-startStop-2] INFO  [localhost].[/UserData]  - Destroying Spring FrameworkServlet 'gsp'
+2016-02-10 13:06:23,838 [Thread-3] INFO  http11.Http11Protocol  - Stopping ProtocolHandler ["http-bio-8080"]
+2016-02-10 13:06:23,838 [Thread-3] INFO  http11.Http11Protocol  - Destroying ProtocolHandler ["http-bio-8080"]
+2016-02-10 13:06:48,390 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 13:06:48,420 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 13:06:48,861 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 13:06:48,871 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 13:06:57,377 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring root WebApplicationContext
+2016-02-10 13:07:05,761 [localhost-startStop-1] INFO  hibernate4.HibernatePluginSupport  - Set db generation strategy to 'update' for datasource DEFAULT
+2016-02-10 13:07:06,457 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanDefinitionRegistry start
+2016-02-10 13:07:06,467 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanFactory
+2016-02-10 13:07:07,677 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-10 13:07:07,845 [localhost-startStop-1] WARN  config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/SYS-25/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+2016-02-10 13:07:10,795 [localhost-startStop-1] INFO  scaffolding.AbstractGrailsTemplateGenerator  - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@7317aff2: startup date [Wed Feb 10 13:07:06 IST 2016]; parent: Root WebApplicationContext]
+2016-02-10 13:07:15,390 [localhost-startStop-1] INFO  databasemigration.MigrationRunner  - updateOnStart disabled for dataSource; not running migrations
+2016-02-10 13:07:15,431 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - configuring scaffolding...
+2016-02-10 13:07:15,441 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - done configuring scaffolding.
+2016-02-10 13:07:15,531 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-10 13:07:15,531 [localhost-startStop-1] INFO  context.GrailsConfigUtils  - [GrailsContextLoader] Grails application loaded.
+2016-02-10 13:07:15,781 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'grails'
+2016-02-10 13:07:15,881 [main] INFO  http11.Http11Protocol  - Starting ProtocolHandler ["http-bio-8080"]
+2016-02-10 13:07:38,429 [http-bio-8080-exec-5] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'gsp'
+2016-02-10 13:07:38,430 [http-bio-8080-exec-5] INFO  [localhost].[/UserData]  - GSP servlet initialized
+2016-02-10 13:08:02,899 [http-bio-8080-exec-6] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 13:08:02,957 [http-bio-8080-exec-6] INFO  userdata.LoginController  - LoginController renderPage Action
+2016-02-10 13:56:42,236 [http-bio-8080-exec-3] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 13:56:42,265 [http-bio-8080-exec-3] INFO  userdata.LoginController  - LoginController renderPage Action
+2016-02-10 14:03:27,533 [http-bio-8080-exec-10] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 14:03:27,565 [http-bio-8080-exec-10] INFO  userdata.LoginController  - LoginController renderPage Action
+2016-02-10 14:03:44,025 [http-bio-8080-exec-10] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 14:03:44,057 [http-bio-8080-exec-10] INFO  userdata.LoginController  - LoginController renderPage Action
+2016-02-10 14:07:31,204 [http-bio-8080-exec-6] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 14:07:31,232 [http-bio-8080-exec-6] INFO  userdata.LoginController  - LoginController renderPage Action
+2016-02-10 14:07:35,522 [http-bio-8080-exec-6] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 14:07:35,522 [http-bio-8080-exec-6] INFO  userdata.LoginController  - LoginController renderPage Action
+2016-02-10 14:13:36,804 [http-bio-8080-exec-4] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 14:13:36,835 [http-bio-8080-exec-4] INFO  userdata.LoginController  - LoginController renderPage Action
+2016-02-10 14:13:39,280 [http-bio-8080-exec-4] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 14:13:39,281 [http-bio-8080-exec-4] INFO  userdata.LoginController  - LoginController renderPage Action
+2016-02-10 14:14:08,779 [http-bio-8080-exec-4] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 14:14:08,805 [http-bio-8080-exec-4] INFO  userdata.LoginController  - LoginController renderPage Action
+2016-02-10 14:14:11,023 [http-bio-8080-exec-4] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 14:14:11,035 [http-bio-8080-exec-4] INFO  userdata.LoginController  - LoginController renderPage Action
+2016-02-10 14:14:11,779 [http-bio-8080-exec-4] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 14:14:11,792 [http-bio-8080-exec-4] INFO  userdata.LoginController  - LoginController renderPage Action
+2016-02-10 14:14:12,476 [http-bio-8080-exec-4] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 14:14:12,479 [http-bio-8080-exec-4] INFO  userdata.LoginController  - LoginController renderPage Action
+2016-02-10 14:16:05,459 [Thread-8] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\controllers\userdata\PersonController.groovy] changed. Applying changes to application.
+2016-02-10 14:16:05,469 [Thread-10] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\controllers\userdata\PersonController.groovy] changed. Applying changes to application.
+2016-02-10 14:16:18,149 [http-bio-8080-exec-1] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 14:16:18,179 [http-bio-8080-exec-1] INFO  userdata.LoginController  - LoginController renderPage Action
+2016-02-10 14:19:18,821 [Thread-3] INFO  http11.Http11Protocol  - Pausing ProtocolHandler ["http-bio-8080"]
+2016-02-10 14:19:18,881 [Thread-3] INFO  core.StandardService  - Stopping service Tomcat
+2016-02-10 14:19:18,891 [localhost-startStop-2] INFO  [localhost].[/UserData]  - Destroying Spring FrameworkServlet 'grails'
+2016-02-10 14:19:18,931 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in userdata.Person
+2016-02-10 14:19:18,941 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in userdata.Person
+2016-02-10 14:19:18,941 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in userdata.Person
+2016-02-10 14:19:18,991 [localhost-startStop-2] INFO  [localhost].[/UserData]  - Destroying Spring FrameworkServlet 'gsp'
+2016-02-10 14:19:19,001 [Thread-3] INFO  http11.Http11Protocol  - Stopping ProtocolHandler ["http-bio-8080"]
+2016-02-10 14:19:19,001 [Thread-3] INFO  http11.Http11Protocol  - Destroying ProtocolHandler ["http-bio-8080"]
+2016-02-10 14:23:38,508 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 14:23:38,538 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 14:23:39,388 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 14:23:39,398 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 14:23:47,823 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring root WebApplicationContext
+2016-02-10 14:23:55,274 [localhost-startStop-1] INFO  hibernate4.HibernatePluginSupport  - Set db generation strategy to 'update' for datasource DEFAULT
+2016-02-10 14:23:55,915 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanDefinitionRegistry start
+2016-02-10 14:23:55,925 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanFactory
+2016-02-10 14:23:57,095 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-10 14:23:57,266 [localhost-startStop-1] WARN  config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/SYS-25/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+2016-02-10 14:24:00,266 [localhost-startStop-1] INFO  scaffolding.AbstractGrailsTemplateGenerator  - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@634f0150: startup date [Wed Feb 10 14:23:55 IST 2016]; parent: Root WebApplicationContext]
+2016-02-10 14:24:05,129 [localhost-startStop-1] INFO  databasemigration.MigrationRunner  - updateOnStart disabled for dataSource; not running migrations
+2016-02-10 14:24:05,180 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - configuring scaffolding...
+2016-02-10 14:24:05,190 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - done configuring scaffolding.
+2016-02-10 14:24:05,280 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-10 14:24:05,290 [localhost-startStop-1] INFO  context.GrailsConfigUtils  - [GrailsContextLoader] Grails application loaded.
+2016-02-10 14:24:05,530 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'grails'
+2016-02-10 14:24:05,640 [main] INFO  http11.Http11Protocol  - Starting ProtocolHandler ["http-bio-8080"]
+2016-02-10 14:24:20,566 [http-bio-8080-exec-5] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'gsp'
+2016-02-10 14:24:20,567 [http-bio-8080-exec-5] INFO  [localhost].[/UserData]  - GSP servlet initialized
+2016-02-10 14:40:26,238 [Thread-11] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\controllers\userdata\PersonController.groovy] changed. Applying changes to application.
+2016-02-10 14:40:26,269 [Thread-8] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\controllers\userdata\PersonController.groovy] changed. Applying changes to application.
+2016-02-10 14:41:06,685 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 14:41:06,727 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 14:41:07,197 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 14:41:07,197 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 14:41:08,431 [Thread-3] INFO  http11.Http11Protocol  - Pausing ProtocolHandler ["http-bio-8080"]
+2016-02-10 14:41:08,482 [Thread-3] INFO  core.StandardService  - Stopping service Tomcat
+2016-02-10 14:41:08,482 [localhost-startStop-2] INFO  [localhost].[/UserData]  - Destroying Spring FrameworkServlet 'grails'
+2016-02-10 14:41:08,512 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in userdata.Person
+2016-02-10 14:41:08,512 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in userdata.Person
+2016-02-10 14:41:08,512 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in userdata.Person
+2016-02-10 14:41:08,582 [localhost-startStop-2] INFO  [localhost].[/UserData]  - Destroying Spring FrameworkServlet 'gsp'
+2016-02-10 14:41:08,592 [Thread-3] INFO  http11.Http11Protocol  - Stopping ProtocolHandler ["http-bio-8080"]
+2016-02-10 14:41:08,592 [Thread-3] INFO  http11.Http11Protocol  - Destroying ProtocolHandler ["http-bio-8080"]
+2016-02-10 14:43:19,646 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 14:43:19,686 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 14:43:20,411 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 14:43:20,421 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 14:43:28,733 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring root WebApplicationContext
+2016-02-10 14:43:35,958 [localhost-startStop-1] INFO  hibernate4.HibernatePluginSupport  - Set db generation strategy to 'update' for datasource DEFAULT
+2016-02-10 14:43:36,763 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanDefinitionRegistry start
+2016-02-10 14:43:36,783 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanFactory
+2016-02-10 14:43:38,023 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-10 14:43:38,174 [localhost-startStop-1] WARN  config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/SYS-25/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+2016-02-10 14:43:41,136 [localhost-startStop-1] INFO  scaffolding.AbstractGrailsTemplateGenerator  - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@1a8cde0e: startup date [Wed Feb 10 14:43:36 IST 2016]; parent: Root WebApplicationContext]
+2016-02-10 14:43:46,078 [localhost-startStop-1] INFO  databasemigration.MigrationRunner  - updateOnStart disabled for dataSource; not running migrations
+2016-02-10 14:43:46,149 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - configuring scaffolding...
+2016-02-10 14:43:46,159 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - done configuring scaffolding.
+2016-02-10 14:43:46,249 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-10 14:43:46,249 [localhost-startStop-1] INFO  context.GrailsConfigUtils  - [GrailsContextLoader] Grails application loaded.
+2016-02-10 14:43:46,509 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'grails'
+2016-02-10 14:43:46,649 [main] INFO  http11.Http11Protocol  - Starting ProtocolHandler ["http-bio-8080"]
+2016-02-10 14:44:10,781 [http-bio-8080-exec-5] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'gsp'
+2016-02-10 14:44:10,782 [http-bio-8080-exec-5] INFO  [localhost].[/UserData]  - GSP servlet initialized
+2016-02-10 14:44:55,765 [http-bio-8080-exec-8] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 14:44:55,802 [http-bio-8080-exec-8] INFO  userdata.LoginController  - LoginController renderPage Action
+2016-02-10 14:45:06,105 [http-bio-8080-exec-3] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 14:45:06,137 [http-bio-8080-exec-3] INFO  userdata.LoginController  - LoginController renderPage Action
+2016-02-10 14:53:06,475 [http-bio-8080-exec-6] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 14:53:06,506 [http-bio-8080-exec-6] INFO  userdata.LoginController  - LoginController renderPage Action
+2016-02-10 15:01:39,292 [Thread-11] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-10 15:01:39,374 [Thread-8] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-10 15:01:39,332 [Thread-10] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-10 15:01:40,343 [Thread-11] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-10 15:02:25,494 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 15:02:25,524 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 15:02:26,112 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 15:02:26,123 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 15:02:27,336 [Thread-3] INFO  http11.Http11Protocol  - Pausing ProtocolHandler ["http-bio-8080"]
+2016-02-10 15:02:27,387 [Thread-3] INFO  core.StandardService  - Stopping service Tomcat
+2016-02-10 15:02:27,387 [localhost-startStop-2] INFO  [localhost].[/UserData]  - Destroying Spring FrameworkServlet 'grails'
+2016-02-10 15:02:27,447 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in userdata.Person
+2016-02-10 15:02:27,457 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in userdata.Person
+2016-02-10 15:02:27,457 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in userdata.Person
+2016-02-10 15:02:27,527 [localhost-startStop-2] INFO  [localhost].[/UserData]  - Destroying Spring FrameworkServlet 'gsp'
+2016-02-10 15:02:27,527 [Thread-3] INFO  http11.Http11Protocol  - Stopping ProtocolHandler ["http-bio-8080"]
+2016-02-10 15:02:27,527 [Thread-3] INFO  http11.Http11Protocol  - Destroying ProtocolHandler ["http-bio-8080"]
+2016-02-10 15:03:15,117 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 15:03:15,147 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 15:03:15,620 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 15:03:15,630 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 15:03:24,123 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring root WebApplicationContext
+2016-02-10 15:03:31,391 [localhost-startStop-1] INFO  hibernate4.HibernatePluginSupport  - Set db generation strategy to 'update' for datasource DEFAULT
+2016-02-10 15:03:32,211 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanDefinitionRegistry start
+2016-02-10 15:03:32,221 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanFactory
+2016-02-10 15:03:33,401 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-10 15:03:33,572 [localhost-startStop-1] WARN  config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/SYS-25/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+2016-02-10 15:03:36,434 [localhost-startStop-1] INFO  scaffolding.AbstractGrailsTemplateGenerator  - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@36036784: startup date [Wed Feb 10 15:03:31 IST 2016]; parent: Root WebApplicationContext]
+2016-02-10 15:03:41,097 [localhost-startStop-1] INFO  databasemigration.MigrationRunner  - updateOnStart disabled for dataSource; not running migrations
+2016-02-10 15:03:41,148 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - configuring scaffolding...
+2016-02-10 15:03:41,158 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - done configuring scaffolding.
+2016-02-10 15:03:41,238 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-10 15:03:41,238 [localhost-startStop-1] INFO  context.GrailsConfigUtils  - [GrailsContextLoader] Grails application loaded.
+2016-02-10 15:03:41,498 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'grails'
+2016-02-10 15:03:41,588 [main] INFO  http11.Http11Protocol  - Starting ProtocolHandler ["http-bio-8080"]
+2016-02-10 15:03:56,295 [http-bio-8080-exec-6] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'gsp'
+2016-02-10 15:03:56,295 [http-bio-8080-exec-6] INFO  [localhost].[/UserData]  - GSP servlet initialized
+2016-02-10 15:11:50,537 [http-bio-8080-exec-9] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 15:11:50,580 [http-bio-8080-exec-9] INFO  userdata.LoginController  - LoginController renderPage Action
+2016-02-10 15:20:46,257 [Thread-8] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\controllers\userdata\PersonController.groovy] changed. Applying changes to application.
+2016-02-10 15:20:46,307 [Thread-10] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\controllers\userdata\PersonController.groovy] changed. Applying changes to application.
+2016-02-10 15:28:16,504 [Thread-8] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-10 15:28:16,534 [Thread-10] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-10 15:28:20,522 [Thread-3] INFO  http11.Http11Protocol  - Pausing ProtocolHandler ["http-bio-8080"]
+2016-02-10 15:28:20,572 [Thread-3] INFO  core.StandardService  - Stopping service Tomcat
+2016-02-10 15:28:20,582 [localhost-startStop-2] INFO  [localhost].[/UserData]  - Destroying Spring FrameworkServlet 'grails'
+2016-02-10 15:28:20,632 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in userdata.Person
+2016-02-10 15:28:20,642 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in userdata.Person
+2016-02-10 15:28:20,642 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in userdata.Person
+2016-02-10 15:28:20,692 [localhost-startStop-2] INFO  [localhost].[/UserData]  - Destroying Spring FrameworkServlet 'gsp'
+2016-02-10 15:28:20,702 [Thread-3] INFO  http11.Http11Protocol  - Stopping ProtocolHandler ["http-bio-8080"]
+2016-02-10 15:28:20,712 [Thread-3] INFO  http11.Http11Protocol  - Destroying ProtocolHandler ["http-bio-8080"]
+2016-02-10 15:28:43,393 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 15:28:43,434 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 15:28:43,976 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 15:28:43,986 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 15:28:52,030 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring root WebApplicationContext
+2016-02-10 15:28:59,903 [localhost-startStop-1] INFO  hibernate4.HibernatePluginSupport  - Set db generation strategy to 'update' for datasource DEFAULT
+2016-02-10 15:29:00,824 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanDefinitionRegistry start
+2016-02-10 15:29:00,834 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanFactory
+2016-02-10 15:29:01,994 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-10 15:29:02,145 [localhost-startStop-1] WARN  config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/SYS-25/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+2016-02-10 15:29:05,066 [localhost-startStop-1] INFO  scaffolding.AbstractGrailsTemplateGenerator  - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@203e5bb1: startup date [Wed Feb 10 15:29:00 IST 2016]; parent: Root WebApplicationContext]
+2016-02-10 15:29:09,531 [localhost-startStop-1] INFO  databasemigration.MigrationRunner  - updateOnStart disabled for dataSource; not running migrations
+2016-02-10 15:29:09,582 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - configuring scaffolding...
+2016-02-10 15:29:09,582 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - done configuring scaffolding.
+2016-02-10 15:29:09,672 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-10 15:29:09,672 [localhost-startStop-1] INFO  context.GrailsConfigUtils  - [GrailsContextLoader] Grails application loaded.
+2016-02-10 15:29:09,902 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'grails'
+2016-02-10 15:29:10,022 [main] INFO  http11.Http11Protocol  - Starting ProtocolHandler ["http-bio-8080"]
+2016-02-10 15:29:50,498 [http-bio-8080-exec-5] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'gsp'
+2016-02-10 15:29:50,499 [http-bio-8080-exec-5] INFO  [localhost].[/UserData]  - GSP servlet initialized
+2016-02-10 15:30:20,974 [http-bio-8080-exec-6] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 15:30:21,016 [http-bio-8080-exec-6] INFO  userdata.LoginController  - LoginController renderPage Action
+2016-02-10 15:49:44,472 [Thread-10] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-10 15:49:44,522 [Thread-8] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-10 15:49:48,680 [Thread-3] INFO  http11.Http11Protocol  - Pausing ProtocolHandler ["http-bio-8080"]
+2016-02-10 15:49:48,730 [Thread-3] INFO  core.StandardService  - Stopping service Tomcat
+2016-02-10 15:49:48,740 [localhost-startStop-2] INFO  [localhost].[/UserData]  - Destroying Spring FrameworkServlet 'grails'
+2016-02-10 15:49:48,790 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in userdata.Person
+2016-02-10 15:49:48,790 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in userdata.Person
+2016-02-10 15:49:48,800 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in userdata.Person
+2016-02-10 15:49:48,850 [localhost-startStop-2] INFO  [localhost].[/UserData]  - Destroying Spring FrameworkServlet 'gsp'
+2016-02-10 15:49:48,860 [Thread-3] INFO  http11.Http11Protocol  - Stopping ProtocolHandler ["http-bio-8080"]
+2016-02-10 15:49:48,870 [Thread-3] INFO  http11.Http11Protocol  - Destroying ProtocolHandler ["http-bio-8080"]
+2016-02-10 15:50:12,307 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 15:50:12,337 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 15:50:12,798 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 15:50:12,808 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 15:50:21,286 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring root WebApplicationContext
+2016-02-10 15:50:29,745 [localhost-startStop-1] INFO  hibernate4.HibernatePluginSupport  - Set db generation strategy to 'update' for datasource DEFAULT
+2016-02-10 15:50:31,078 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanDefinitionRegistry start
+2016-02-10 15:50:31,099 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanFactory
+2016-02-10 15:50:32,301 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-10 15:50:32,472 [localhost-startStop-1] WARN  config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/SYS-25/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+2016-02-10 15:50:35,372 [localhost-startStop-1] INFO  scaffolding.AbstractGrailsTemplateGenerator  - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@203e5bb1: startup date [Wed Feb 10 15:50:30 IST 2016]; parent: Root WebApplicationContext]
+2016-02-10 15:50:40,181 [localhost-startStop-1] INFO  databasemigration.MigrationRunner  - updateOnStart disabled for dataSource; not running migrations
+2016-02-10 15:50:40,222 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - configuring scaffolding...
+2016-02-10 15:50:40,232 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - done configuring scaffolding.
+2016-02-10 15:50:40,312 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-10 15:50:40,312 [localhost-startStop-1] INFO  context.GrailsConfigUtils  - [GrailsContextLoader] Grails application loaded.
+2016-02-10 15:50:40,572 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'grails'
+2016-02-10 15:50:40,652 [main] INFO  http11.Http11Protocol  - Starting ProtocolHandler ["http-bio-8080"]
+2016-02-10 15:50:58,094 [http-bio-8080-exec-7] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'gsp'
+2016-02-10 15:50:58,095 [http-bio-8080-exec-7] INFO  [localhost].[/UserData]  - GSP servlet initialized
+2016-02-10 15:51:28,214 [http-bio-8080-exec-7] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 15:51:28,262 [http-bio-8080-exec-7] INFO  userdata.LoginController  - LoginController renderPage Action
+2016-02-10 15:55:53,662 [Thread-8] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\controllers\userdata\PersonController.groovy] changed. Applying changes to application.
+2016-02-10 15:55:53,722 [Thread-10] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\controllers\userdata\PersonController.groovy] changed. Applying changes to application.
+2016-02-10 15:55:57,490 [FileSystemWatcher: files=#134 cl=groovy.lang.GroovyClassLoader@4737f519] ERROR agent.Watcher  - FileWatcher caught serious error, see cause
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "userdata/PersonController$$DPcJ17lP"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:643)
+	at java.lang.Thread.run(Thread.java:745)
+2016-02-10 15:56:02,303 [http-bio-8080-exec-4] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 15:56:02,344 [http-bio-8080-exec-4] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 15:56:48,591 [http-bio-8080-exec-4] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 15:56:48,641 [http-bio-8080-exec-4] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 15:57:34,124 [Thread-8] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\controllers\userdata\PersonController.groovy] changed. Applying changes to application.
+2016-02-10 15:57:34,154 [Thread-10] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\controllers\userdata\PersonController.groovy] changed. Applying changes to application.
+2016-02-10 15:57:35,312 [Thread-8] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\controllers\userdata\PersonController.groovy] changed. Applying changes to application.
+2016-02-10 16:01:37,937 [Thread-3] INFO  http11.Http11Protocol  - Pausing ProtocolHandler ["http-bio-8080"]
+2016-02-10 16:01:37,987 [Thread-3] INFO  core.StandardService  - Stopping service Tomcat
+2016-02-10 16:01:37,987 [localhost-startStop-2] INFO  [localhost].[/UserData]  - Destroying Spring FrameworkServlet 'grails'
+2016-02-10 16:01:38,017 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in userdata.Person
+2016-02-10 16:01:38,027 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in userdata.Person
+2016-02-10 16:01:38,027 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in userdata.Person
+2016-02-10 16:01:38,077 [localhost-startStop-2] INFO  [localhost].[/UserData]  - Destroying Spring FrameworkServlet 'gsp'
+2016-02-10 16:01:38,087 [Thread-3] INFO  http11.Http11Protocol  - Stopping ProtocolHandler ["http-bio-8080"]
+2016-02-10 16:01:38,097 [Thread-3] INFO  http11.Http11Protocol  - Destroying ProtocolHandler ["http-bio-8080"]
+2016-02-10 16:02:05,323 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 16:02:05,373 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 16:02:05,938 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 16:02:05,948 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 16:02:13,896 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring root WebApplicationContext
+2016-02-10 16:02:21,075 [localhost-startStop-1] INFO  hibernate4.HibernatePluginSupport  - Set db generation strategy to 'update' for datasource DEFAULT
+2016-02-10 16:02:22,188 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanDefinitionRegistry start
+2016-02-10 16:02:22,198 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanFactory
+2016-02-10 16:02:23,399 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-10 16:02:23,550 [localhost-startStop-1] WARN  config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/SYS-25/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+2016-02-10 16:02:26,500 [localhost-startStop-1] INFO  scaffolding.AbstractGrailsTemplateGenerator  - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@15650e04: startup date [Wed Feb 10 16:02:21 IST 2016]; parent: Root WebApplicationContext]
+2016-02-10 16:02:32,463 [localhost-startStop-1] INFO  databasemigration.MigrationRunner  - updateOnStart disabled for dataSource; not running migrations
+2016-02-10 16:02:32,504 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - configuring scaffolding...
+2016-02-10 16:02:32,514 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - done configuring scaffolding.
+2016-02-10 16:02:32,594 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-10 16:02:32,594 [localhost-startStop-1] INFO  context.GrailsConfigUtils  - [GrailsContextLoader] Grails application loaded.
+2016-02-10 16:02:32,824 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'grails'
+2016-02-10 16:02:32,965 [main] INFO  http11.Http11Protocol  - Starting ProtocolHandler ["http-bio-8080"]
+2016-02-10 16:02:55,135 [http-bio-8080-exec-7] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'gsp'
+2016-02-10 16:02:55,136 [http-bio-8080-exec-7] INFO  [localhost].[/UserData]  - GSP servlet initialized
+2016-02-10 16:04:08,625 [http-bio-8080-exec-8] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 16:04:08,663 [http-bio-8080-exec-8] INFO  userdata.LoginController  - LoginController renderPage Action
+2016-02-10 16:09:31,528 [http-bio-8080-exec-6] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 16:09:31,528 [http-bio-8080-exec-6] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 16:09:31,528 [http-bio-8080-exec-6] INFO  userdata.PersonController  - 12
+2016-02-10 16:09:31,528 [http-bio-8080-exec-6] INFO  userdata.PersonController  - vvvvv
+2016-02-10 16:09:31,528 [http-bio-8080-exec-6] INFO  userdata.PersonController  - vvgggg
+2016-02-10 16:09:31,528 [http-bio-8080-exec-6] INFO  userdata.PersonController  - 22
+2016-02-10 16:09:31,528 [http-bio-8080-exec-6] INFO  userdata.PersonController  - v@gmail.com
+2016-02-10 16:09:31,528 [http-bio-8080-exec-6] INFO  userdata.PersonController  - ************************
+2016-02-10 16:09:31,620 [http-bio-8080-exec-6] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 16:09:31,925 [http-bio-8080-exec-6] INFO  userdata.PersonService  - PersonService save Exception::org.springframework.context.NoSuchMessageException: No message found under code 'default.status.label' for locale 'en_US'.
+2016-02-10 16:09:31,946 [http-bio-8080-exec-6] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 16:09:31,946 [http-bio-8080-exec-6] INFO  userdata.PersonController  - null
+2016-02-10 16:09:31,982 [http-bio-8080-exec-6] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 16:21:35,682 [Thread-8] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-10 16:21:35,682 [Thread-11] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-10 16:21:45,575 [http-bio-8080-exec-3] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 16:21:45,577 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 16:21:45,577 [http-bio-8080-exec-3] INFO  userdata.PersonController  - 12
+2016-02-10 16:21:45,577 [http-bio-8080-exec-3] INFO  userdata.PersonController  - vvvvv
+2016-02-10 16:21:45,577 [http-bio-8080-exec-3] INFO  userdata.PersonController  - vvgggg
+2016-02-10 16:21:45,577 [http-bio-8080-exec-3] INFO  userdata.PersonController  - 22
+2016-02-10 16:21:45,578 [http-bio-8080-exec-3] INFO  userdata.PersonController  - v@gmail.com
+2016-02-10 16:21:45,578 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ************************
+2016-02-10 16:21:45,592 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 16:21:45,603 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService getInstance 
+2016-02-10 16:21:45,631 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService save-Object 
+2016-02-10 16:21:46,057 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService save Exception::org.springframework.context.NoSuchMessageException: No message found under code 'default.status.label' for locale 'en_US'.
+2016-02-10 16:21:46,159 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 16:21:46,159 [http-bio-8080-exec-3] INFO  userdata.PersonController  - null
+2016-02-10 16:21:46,200 [http-bio-8080-exec-3] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 16:31:34,572 [Thread-11] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-10 16:31:34,602 [Thread-8] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-10 16:31:38,498 [Thread-3] INFO  http11.Http11Protocol  - Pausing ProtocolHandler ["http-bio-8080"]
+2016-02-10 16:31:38,548 [Thread-3] INFO  core.StandardService  - Stopping service Tomcat
+2016-02-10 16:31:38,558 [localhost-startStop-2] INFO  [localhost].[/UserData]  - Destroying Spring FrameworkServlet 'grails'
+2016-02-10 16:31:38,598 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in userdata.Person
+2016-02-10 16:31:38,608 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in userdata.Person
+2016-02-10 16:31:38,608 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in userdata.Person
+2016-02-10 16:31:38,658 [localhost-startStop-2] INFO  [localhost].[/UserData]  - Destroying Spring FrameworkServlet 'gsp'
+2016-02-10 16:31:38,668 [Thread-3] INFO  http11.Http11Protocol  - Stopping ProtocolHandler ["http-bio-8080"]
+2016-02-10 16:31:38,668 [Thread-3] INFO  http11.Http11Protocol  - Destroying ProtocolHandler ["http-bio-8080"]
+2016-02-10 16:32:01,226 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 16:32:01,257 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 16:32:01,877 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 16:32:01,887 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 16:32:09,804 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring root WebApplicationContext
+2016-02-10 16:32:16,668 [localhost-startStop-1] INFO  hibernate4.HibernatePluginSupport  - Set db generation strategy to 'update' for datasource DEFAULT
+2016-02-10 16:32:17,731 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanDefinitionRegistry start
+2016-02-10 16:32:17,772 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanFactory
+2016-02-10 16:32:18,982 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-10 16:32:19,133 [localhost-startStop-1] WARN  config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/SYS-25/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+2016-02-10 16:32:22,315 [localhost-startStop-1] INFO  scaffolding.AbstractGrailsTemplateGenerator  - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@1baea40: startup date [Wed Feb 10 16:32:17 IST 2016]; parent: Root WebApplicationContext]
+2016-02-10 16:32:27,172 [localhost-startStop-1] INFO  databasemigration.MigrationRunner  - updateOnStart disabled for dataSource; not running migrations
+2016-02-10 16:32:27,213 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - configuring scaffolding...
+2016-02-10 16:32:27,223 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - done configuring scaffolding.
+2016-02-10 16:32:27,313 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-10 16:32:27,313 [localhost-startStop-1] INFO  context.GrailsConfigUtils  - [GrailsContextLoader] Grails application loaded.
+2016-02-10 16:32:27,513 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'grails'
+2016-02-10 16:32:27,653 [main] INFO  http11.Http11Protocol  - Starting ProtocolHandler ["http-bio-8080"]
+2016-02-10 16:32:44,826 [http-bio-8080-exec-6] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'gsp'
+2016-02-10 16:32:44,826 [http-bio-8080-exec-6] INFO  [localhost].[/UserData]  - GSP servlet initialized
+2016-02-10 16:33:28,591 [http-bio-8080-exec-3] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 16:33:28,594 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 16:33:28,594 [http-bio-8080-exec-3] INFO  userdata.PersonController  - 22
+2016-02-10 16:33:28,594 [http-bio-8080-exec-3] INFO  userdata.PersonController  - "ccccc"
+2016-02-10 16:33:28,594 [http-bio-8080-exec-3] INFO  userdata.PersonController  - "vvvvv"
+2016-02-10 16:33:28,594 [http-bio-8080-exec-3] INFO  userdata.PersonController  - 24
+2016-02-10 16:33:28,595 [http-bio-8080-exec-3] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 16:33:28,595 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ************************
+2016-02-10 16:33:28,676 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 16:33:28,779 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService getInstance 
+2016-02-10 16:33:28,791 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService save Exception::org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object '22' with class 'java.lang.String' to class 'int'
+2016-02-10 16:33:28,802 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 16:33:28,802 [http-bio-8080-exec-3] INFO  userdata.PersonController  - null
+2016-02-10 16:33:28,840 [http-bio-8080-exec-3] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 16:34:57,495 [http-bio-8080-exec-4] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 16:34:57,496 [http-bio-8080-exec-4] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 16:34:57,497 [http-bio-8080-exec-4] INFO  userdata.PersonController  - 22
+2016-02-10 16:34:57,497 [http-bio-8080-exec-4] INFO  userdata.PersonController  - ccccc
+2016-02-10 16:34:57,497 [http-bio-8080-exec-4] INFO  userdata.PersonController  - vvvvv
+2016-02-10 16:34:57,497 [http-bio-8080-exec-4] INFO  userdata.PersonController  - 24
+2016-02-10 16:34:57,497 [http-bio-8080-exec-4] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 16:34:57,497 [http-bio-8080-exec-4] INFO  userdata.PersonController  - ************************
+2016-02-10 16:34:57,498 [http-bio-8080-exec-4] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 16:34:57,503 [http-bio-8080-exec-4] INFO  userdata.PersonService  - PersonService getInstance 
+2016-02-10 16:34:57,504 [http-bio-8080-exec-4] INFO  userdata.PersonService  - PersonService save Exception::org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object '22' with class 'java.lang.String' to class 'int'
+2016-02-10 16:34:57,505 [http-bio-8080-exec-4] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 16:34:57,505 [http-bio-8080-exec-4] INFO  userdata.PersonController  - null
+2016-02-10 16:34:57,541 [http-bio-8080-exec-4] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 16:36:29,327 [Thread-8] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-10 16:36:29,352 [Thread-10] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-10 16:36:36,711 [http-bio-8080-exec-2] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 16:36:36,712 [http-bio-8080-exec-2] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 16:36:36,713 [http-bio-8080-exec-2] INFO  userdata.PersonController  - 22
+2016-02-10 16:36:36,713 [http-bio-8080-exec-2] INFO  userdata.PersonController  - ccccc
+2016-02-10 16:36:36,713 [http-bio-8080-exec-2] INFO  userdata.PersonController  - vvvvv
+2016-02-10 16:36:36,713 [http-bio-8080-exec-2] INFO  userdata.PersonController  - 24
+2016-02-10 16:36:36,713 [http-bio-8080-exec-2] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 16:36:36,714 [http-bio-8080-exec-2] INFO  userdata.PersonController  - ************************
+2016-02-10 16:36:36,732 [http-bio-8080-exec-2] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 16:36:36,737 [http-bio-8080-exec-2] INFO  userdata.PersonService  - PersonService getInstance 
+2016-02-10 16:36:36,761 [http-bio-8080-exec-2] INFO  userdata.PersonService  - PersonService save-Object 
+2016-02-10 16:36:37,092 [http-bio-8080-exec-2] INFO  userdata.PersonService  - PersonService save Exception::org.springframework.context.NoSuchMessageException: No message found under code 'default.status.label' for locale 'en_US'.
+2016-02-10 16:36:37,140 [http-bio-8080-exec-2] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 16:36:37,140 [http-bio-8080-exec-2] INFO  userdata.PersonController  - null
+2016-02-10 16:36:37,182 [http-bio-8080-exec-2] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 16:38:21,868 [Thread-10] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-10 16:38:21,899 [Thread-8] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-10 16:38:22,553 [Thread-10] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-10 16:38:22,563 [Thread-8] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-10 16:38:51,538 [Thread-3] INFO  http11.Http11Protocol  - Pausing ProtocolHandler ["http-bio-8080"]
+2016-02-10 16:38:51,590 [Thread-3] INFO  core.StandardService  - Stopping service Tomcat
+2016-02-10 16:38:51,602 [localhost-startStop-2] INFO  [localhost].[/UserData]  - Destroying Spring FrameworkServlet 'grails'
+2016-02-10 16:38:51,652 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in userdata.Person
+2016-02-10 16:38:51,659 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in userdata.Person
+2016-02-10 16:38:51,663 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in userdata.Person
+2016-02-10 16:38:51,713 [localhost-startStop-2] INFO  [localhost].[/UserData]  - Destroying Spring FrameworkServlet 'gsp'
+2016-02-10 16:38:51,775 [Thread-3] INFO  http11.Http11Protocol  - Stopping ProtocolHandler ["http-bio-8080"]
+2016-02-10 16:38:51,784 [Thread-3] INFO  http11.Http11Protocol  - Destroying ProtocolHandler ["http-bio-8080"]
+2016-02-10 16:39:14,128 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 16:39:14,238 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 16:39:15,105 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 16:39:15,114 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 16:39:23,536 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring root WebApplicationContext
+2016-02-10 16:39:30,867 [localhost-startStop-1] INFO  hibernate4.HibernatePluginSupport  - Set db generation strategy to 'update' for datasource DEFAULT
+2016-02-10 16:39:31,884 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanDefinitionRegistry start
+2016-02-10 16:39:31,896 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanFactory
+2016-02-10 16:39:33,090 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-10 16:39:33,243 [localhost-startStop-1] WARN  config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/SYS-25/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+2016-02-10 16:39:36,397 [localhost-startStop-1] INFO  scaffolding.AbstractGrailsTemplateGenerator  - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@4602f47: startup date [Wed Feb 10 16:39:31 IST 2016]; parent: Root WebApplicationContext]
+2016-02-10 16:39:41,201 [localhost-startStop-1] INFO  databasemigration.MigrationRunner  - updateOnStart disabled for dataSource; not running migrations
+2016-02-10 16:39:41,250 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - configuring scaffolding...
+2016-02-10 16:39:41,258 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - done configuring scaffolding.
+2016-02-10 16:39:41,345 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-10 16:39:41,345 [localhost-startStop-1] INFO  context.GrailsConfigUtils  - [GrailsContextLoader] Grails application loaded.
+2016-02-10 16:39:41,554 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'grails'
+2016-02-10 16:39:41,693 [main] INFO  http11.Http11Protocol  - Starting ProtocolHandler ["http-bio-8080"]
+2016-02-10 16:39:58,864 [http-bio-8080-exec-6] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'gsp'
+2016-02-10 16:39:58,865 [http-bio-8080-exec-6] INFO  [localhost].[/UserData]  - GSP servlet initialized
+2016-02-10 16:40:22,170 [http-bio-8080-exec-8] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 16:40:22,173 [http-bio-8080-exec-8] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 16:40:22,173 [http-bio-8080-exec-8] INFO  userdata.PersonController  - 21
+2016-02-10 16:40:22,173 [http-bio-8080-exec-8] INFO  userdata.PersonController  - ccccc
+2016-02-10 16:40:22,174 [http-bio-8080-exec-8] INFO  userdata.PersonController  - vvvvv
+2016-02-10 16:40:22,174 [http-bio-8080-exec-8] INFO  userdata.PersonController  - 24
+2016-02-10 16:40:22,174 [http-bio-8080-exec-8] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 16:40:22,174 [http-bio-8080-exec-8] INFO  userdata.PersonController  - ************************
+2016-02-10 16:40:22,244 [http-bio-8080-exec-8] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 16:40:22,341 [http-bio-8080-exec-8] INFO  userdata.PersonService  - PersonService getInstance 
+2016-02-10 16:40:22,369 [http-bio-8080-exec-8] INFO  userdata.PersonService  - PersonService save-Object 
+2016-02-10 16:40:22,571 [http-bio-8080-exec-8] INFO  userdata.PersonService  - PersonService save Exception::groovy.lang.MissingMethodException: No signature of method: userdata.PersonService.getMessage() is applicable for argument types: (java.lang.String, null) values: [default.status.label, null]
+Possible solutions: getMessage(java.lang.String)
+2016-02-10 16:40:22,640 [http-bio-8080-exec-8] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 16:40:22,641 [http-bio-8080-exec-8] INFO  userdata.PersonController  - null
+2016-02-10 16:40:22,694 [http-bio-8080-exec-8] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 16:41:42,311 [Thread-10] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-10 16:41:42,325 [Thread-8] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-10 16:41:51,618 [http-bio-8080-exec-4] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 16:41:51,620 [http-bio-8080-exec-4] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 16:41:51,620 [http-bio-8080-exec-4] INFO  userdata.PersonController  - 21
+2016-02-10 16:41:51,620 [http-bio-8080-exec-4] INFO  userdata.PersonController  - ccccc
+2016-02-10 16:41:51,620 [http-bio-8080-exec-4] INFO  userdata.PersonController  - vvvvv
+2016-02-10 16:41:51,620 [http-bio-8080-exec-4] INFO  userdata.PersonController  - 24
+2016-02-10 16:41:51,620 [http-bio-8080-exec-4] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 16:41:51,621 [http-bio-8080-exec-4] INFO  userdata.PersonController  - ************************
+2016-02-10 16:41:51,630 [http-bio-8080-exec-4] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 16:41:51,636 [http-bio-8080-exec-4] INFO  userdata.PersonService  - PersonService getInstance 
+2016-02-10 16:41:51,651 [http-bio-8080-exec-4] INFO  userdata.PersonService  - PersonService save-Object 
+2016-02-10 16:41:51,724 [http-bio-8080-exec-4] INFO  userdata.PersonService  - PersonService save Exception::org.springframework.context.NoSuchMessageException: No message found under code 'default.status.label' for locale 'en_US'.
+2016-02-10 16:41:52,002 [http-bio-8080-exec-4] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 16:41:52,003 [http-bio-8080-exec-4] INFO  userdata.PersonController  - null
+2016-02-10 16:41:52,049 [http-bio-8080-exec-4] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 16:51:13,403 [http-bio-8080-exec-2] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 16:51:13,405 [http-bio-8080-exec-2] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 16:51:13,405 [http-bio-8080-exec-2] INFO  userdata.PersonController  - 21
+2016-02-10 16:51:13,405 [http-bio-8080-exec-2] INFO  userdata.PersonController  - ccccc
+2016-02-10 16:51:13,405 [http-bio-8080-exec-2] INFO  userdata.PersonController  - vvvvv
+2016-02-10 16:51:13,405 [http-bio-8080-exec-2] INFO  userdata.PersonController  - 24
+2016-02-10 16:51:13,405 [http-bio-8080-exec-2] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 16:51:13,406 [http-bio-8080-exec-2] INFO  userdata.PersonController  - ************************
+2016-02-10 16:51:13,407 [http-bio-8080-exec-2] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 16:51:13,422 [http-bio-8080-exec-2] INFO  userdata.PersonService  - PersonService getInstance 
+2016-02-10 16:51:13,423 [http-bio-8080-exec-2] INFO  userdata.PersonService  - PersonService save-Object 
+2016-02-10 16:51:13,493 [http-bio-8080-exec-2] INFO  userdata.PersonService  - PersonService save Exception::org.springframework.context.NoSuchMessageException: No message found under code 'default.status.label' for locale 'en_US'.
+2016-02-10 16:51:13,548 [http-bio-8080-exec-2] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 16:51:13,548 [http-bio-8080-exec-2] INFO  userdata.PersonController  - null
+2016-02-10 16:51:13,588 [http-bio-8080-exec-2] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 16:51:42,753 [http-bio-8080-exec-2] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 16:51:42,756 [http-bio-8080-exec-2] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 16:51:42,756 [http-bio-8080-exec-2] INFO  userdata.PersonController  - 21
+2016-02-10 16:51:42,756 [http-bio-8080-exec-2] INFO  userdata.PersonController  - ccccc
+2016-02-10 16:51:42,757 [http-bio-8080-exec-2] INFO  userdata.PersonController  - vvvvv
+2016-02-10 16:51:42,757 [http-bio-8080-exec-2] INFO  userdata.PersonController  - 24
+2016-02-10 16:51:42,757 [http-bio-8080-exec-2] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 16:51:42,757 [http-bio-8080-exec-2] INFO  userdata.PersonController  - ************************
+2016-02-10 16:51:42,760 [http-bio-8080-exec-2] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 16:51:42,765 [http-bio-8080-exec-2] INFO  userdata.PersonService  - PersonService getInstance 
+2016-02-10 16:51:42,766 [http-bio-8080-exec-2] INFO  userdata.PersonService  - PersonService save-Object 
+2016-02-10 16:51:42,802 [http-bio-8080-exec-2] INFO  userdata.PersonService  - PersonService save Exception::org.springframework.context.NoSuchMessageException: No message found under code 'default.status.label' for locale 'en_US'.
+2016-02-10 16:51:42,845 [http-bio-8080-exec-2] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 16:51:42,845 [http-bio-8080-exec-2] INFO  userdata.PersonController  - null
+2016-02-10 16:51:42,882 [http-bio-8080-exec-2] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 16:51:49,527 [Thread-3] INFO  http11.Http11Protocol  - Pausing ProtocolHandler ["http-bio-8080"]
+2016-02-10 16:51:49,578 [Thread-3] INFO  core.StandardService  - Stopping service Tomcat
+2016-02-10 16:51:49,589 [localhost-startStop-2] INFO  [localhost].[/UserData]  - Destroying Spring FrameworkServlet 'grails'
+2016-02-10 16:51:49,643 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in userdata.Person
+2016-02-10 16:51:49,649 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in userdata.Person
+2016-02-10 16:51:49,653 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in userdata.Person
+2016-02-10 16:51:49,702 [localhost-startStop-2] INFO  [localhost].[/UserData]  - Destroying Spring FrameworkServlet 'gsp'
+2016-02-10 16:51:49,710 [Thread-3] INFO  http11.Http11Protocol  - Stopping ProtocolHandler ["http-bio-8080"]
+2016-02-10 16:51:49,713 [Thread-3] INFO  http11.Http11Protocol  - Destroying ProtocolHandler ["http-bio-8080"]
+2016-02-10 16:52:12,647 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 16:52:12,679 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 16:52:13,586 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 16:52:13,595 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 16:52:21,646 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring root WebApplicationContext
+2016-02-10 16:52:29,134 [localhost-startStop-1] INFO  hibernate4.HibernatePluginSupport  - Set db generation strategy to 'update' for datasource DEFAULT
+2016-02-10 16:52:29,861 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanDefinitionRegistry start
+2016-02-10 16:52:29,872 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanFactory
+2016-02-10 16:52:31,055 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-10 16:52:31,223 [localhost-startStop-1] WARN  config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/SYS-25/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+2016-02-10 16:52:34,281 [localhost-startStop-1] INFO  scaffolding.AbstractGrailsTemplateGenerator  - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@33ec4b7b: startup date [Wed Feb 10 16:52:29 IST 2016]; parent: Root WebApplicationContext]
+2016-02-10 16:52:38,857 [localhost-startStop-1] INFO  databasemigration.MigrationRunner  - updateOnStart disabled for dataSource; not running migrations
+2016-02-10 16:52:38,903 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - configuring scaffolding...
+2016-02-10 16:52:38,910 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - done configuring scaffolding.
+2016-02-10 16:52:38,991 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-10 16:52:38,992 [localhost-startStop-1] INFO  context.GrailsConfigUtils  - [GrailsContextLoader] Grails application loaded.
+2016-02-10 16:52:39,247 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'grails'
+2016-02-10 16:52:39,340 [main] INFO  http11.Http11Protocol  - Starting ProtocolHandler ["http-bio-8080"]
+2016-02-10 16:53:02,903 [http-bio-8080-exec-5] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'gsp'
+2016-02-10 16:53:02,903 [http-bio-8080-exec-5] INFO  [localhost].[/UserData]  - GSP servlet initialized
+2016-02-10 16:55:54,555 [http-bio-8080-exec-8] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 16:55:54,566 [http-bio-8080-exec-8] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 16:55:54,566 [http-bio-8080-exec-8] INFO  userdata.PersonController  - 21
+2016-02-10 16:55:54,567 [http-bio-8080-exec-8] INFO  userdata.PersonController  - ccccc
+2016-02-10 16:55:54,567 [http-bio-8080-exec-8] INFO  userdata.PersonController  - vvvvv
+2016-02-10 16:55:54,567 [http-bio-8080-exec-8] INFO  userdata.PersonController  - 24
+2016-02-10 16:55:54,568 [http-bio-8080-exec-8] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 16:55:54,568 [http-bio-8080-exec-8] INFO  userdata.PersonController  - ************************
+2016-02-10 16:55:54,651 [http-bio-8080-exec-8] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 16:55:54,856 [http-bio-8080-exec-8] INFO  userdata.PersonService  - PersonService getInstance 
+2016-02-10 16:55:54,885 [http-bio-8080-exec-8] INFO  userdata.PersonService  - PersonService save-Object 
+2016-02-10 16:55:55,175 [http-bio-8080-exec-8] INFO  userdata.PersonService  - PersonService save Exception::org.springframework.context.NoSuchMessageException: No message found under code 'default.status.label' for locale 'en_US'.
+2016-02-10 16:55:55,211 [http-bio-8080-exec-8] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 16:55:55,211 [http-bio-8080-exec-8] INFO  userdata.PersonController  - null
+2016-02-10 16:55:55,274 [http-bio-8080-exec-8] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 17:05:52,955 [Thread-3] INFO  http11.Http11Protocol  - Pausing ProtocolHandler ["http-bio-8080"]
+2016-02-10 17:05:52,957 [Thread-3] INFO  core.StandardService  - Stopping service Tomcat
+2016-02-10 17:05:52,992 [localhost-startStop-2] INFO  [localhost].[/UserData]  - Destroying Spring FrameworkServlet 'grails'
+2016-02-10 17:05:53,023 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in userdata.Person
+2016-02-10 17:05:53,028 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in userdata.Person
+2016-02-10 17:05:53,033 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in userdata.Person
+2016-02-10 17:05:53,094 [localhost-startStop-2] INFO  [localhost].[/UserData]  - Destroying Spring FrameworkServlet 'gsp'
+2016-02-10 17:05:53,103 [Thread-3] INFO  http11.Http11Protocol  - Stopping ProtocolHandler ["http-bio-8080"]
+2016-02-10 17:05:53,106 [Thread-3] INFO  http11.Http11Protocol  - Destroying ProtocolHandler ["http-bio-8080"]
+2016-02-10 17:06:14,967 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 17:06:15,012 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 17:06:15,924 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 17:06:15,933 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 17:06:24,608 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring root WebApplicationContext
+2016-02-10 17:06:34,236 [localhost-startStop-1] INFO  hibernate4.HibernatePluginSupport  - Set db generation strategy to 'update' for datasource DEFAULT
+2016-02-10 17:06:35,201 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanDefinitionRegistry start
+2016-02-10 17:06:35,213 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanFactory
+2016-02-10 17:06:36,767 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-10 17:06:36,935 [localhost-startStop-1] WARN  config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/SYS-25/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+2016-02-10 17:06:39,916 [localhost-startStop-1] INFO  scaffolding.AbstractGrailsTemplateGenerator  - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@7811a637: startup date [Wed Feb 10 17:06:34 IST 2016]; parent: Root WebApplicationContext]
+2016-02-10 17:06:44,504 [localhost-startStop-1] INFO  databasemigration.MigrationRunner  - updateOnStart disabled for dataSource; not running migrations
+2016-02-10 17:06:44,551 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - configuring scaffolding...
+2016-02-10 17:06:44,558 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - done configuring scaffolding.
+2016-02-10 17:06:44,691 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-10 17:06:44,692 [localhost-startStop-1] INFO  context.GrailsConfigUtils  - [GrailsContextLoader] Grails application loaded.
+2016-02-10 17:06:44,897 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'grails'
+2016-02-10 17:06:44,982 [main] INFO  http11.Http11Protocol  - Starting ProtocolHandler ["http-bio-8080"]
+2016-02-10 17:07:22,779 [http-bio-8080-exec-6] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'gsp'
+2016-02-10 17:07:22,780 [http-bio-8080-exec-6] INFO  [localhost].[/UserData]  - GSP servlet initialized
+2016-02-10 17:08:07,425 [http-bio-8080-exec-8] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 17:08:07,428 [http-bio-8080-exec-8] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 17:08:07,428 [http-bio-8080-exec-8] INFO  userdata.PersonController  - 30
+2016-02-10 17:08:07,428 [http-bio-8080-exec-8] INFO  userdata.PersonController  - ccccc
+2016-02-10 17:08:07,429 [http-bio-8080-exec-8] INFO  userdata.PersonController  - vvvvv
+2016-02-10 17:08:07,429 [http-bio-8080-exec-8] INFO  userdata.PersonController  - 24
+2016-02-10 17:08:07,429 [http-bio-8080-exec-8] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 17:08:07,429 [http-bio-8080-exec-8] INFO  userdata.PersonController  - ************************
+2016-02-10 17:08:07,510 [http-bio-8080-exec-8] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 17:08:07,607 [http-bio-8080-exec-8] INFO  userdata.PersonService  - PersonService getInstance 
+2016-02-10 17:08:07,629 [http-bio-8080-exec-8] INFO  userdata.PersonService  - PersonService save-Object 
+2016-02-10 17:08:07,809 [http-bio-8080-exec-8] INFO  userdata.PersonService  - PersonService save Exception::org.springframework.context.NoSuchMessageException: No message found under code 'default.status.label' for locale 'en_US'.
+2016-02-10 17:08:07,836 [http-bio-8080-exec-8] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 17:08:07,836 [http-bio-8080-exec-8] INFO  userdata.PersonController  - null
+2016-02-10 17:08:07,874 [http-bio-8080-exec-8] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 17:14:03,226 [Thread-8] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\i18n\messages.properties] changed. Applying changes to application.
+2016-02-10 17:14:03,226 [Thread-10] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\i18n\messages.properties] changed. Applying changes to application.
+2016-02-10 17:14:18,809 [Thread-3] INFO  http11.Http11Protocol  - Pausing ProtocolHandler ["http-bio-8080"]
+2016-02-10 17:14:18,860 [Thread-3] INFO  core.StandardService  - Stopping service Tomcat
+2016-02-10 17:14:18,872 [localhost-startStop-2] INFO  [localhost].[/UserData]  - Destroying Spring FrameworkServlet 'grails'
+2016-02-10 17:14:18,926 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in userdata.Person
+2016-02-10 17:14:18,932 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in userdata.Person
+2016-02-10 17:14:18,937 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in userdata.Person
+2016-02-10 17:14:19,031 [localhost-startStop-2] INFO  [localhost].[/UserData]  - Destroying Spring FrameworkServlet 'gsp'
+2016-02-10 17:14:19,039 [Thread-3] INFO  http11.Http11Protocol  - Stopping ProtocolHandler ["http-bio-8080"]
+2016-02-10 17:14:19,043 [Thread-3] INFO  http11.Http11Protocol  - Destroying ProtocolHandler ["http-bio-8080"]
+2016-02-10 17:14:42,431 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 17:14:42,471 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 17:14:42,828 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 17:14:42,836 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 17:14:50,810 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring root WebApplicationContext
+2016-02-10 17:14:59,894 [localhost-startStop-1] INFO  hibernate4.HibernatePluginSupport  - Set db generation strategy to 'update' for datasource DEFAULT
+2016-02-10 17:15:00,513 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanDefinitionRegistry start
+2016-02-10 17:15:00,524 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanFactory
+2016-02-10 17:15:01,729 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-10 17:15:01,902 [localhost-startStop-1] WARN  config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/SYS-25/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+2016-02-10 17:15:04,855 [localhost-startStop-1] INFO  scaffolding.AbstractGrailsTemplateGenerator  - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@337633d4: startup date [Wed Feb 10 17:15:00 IST 2016]; parent: Root WebApplicationContext]
+2016-02-10 17:15:09,297 [localhost-startStop-1] INFO  databasemigration.MigrationRunner  - updateOnStart disabled for dataSource; not running migrations
+2016-02-10 17:15:09,343 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - configuring scaffolding...
+2016-02-10 17:15:09,351 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - done configuring scaffolding.
+2016-02-10 17:15:09,436 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-10 17:15:09,437 [localhost-startStop-1] INFO  context.GrailsConfigUtils  - [GrailsContextLoader] Grails application loaded.
+2016-02-10 17:15:09,653 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'grails'
+2016-02-10 17:15:09,758 [main] INFO  http11.Http11Protocol  - Starting ProtocolHandler ["http-bio-8080"]
+2016-02-10 17:15:24,900 [http-bio-8080-exec-8] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'gsp'
+2016-02-10 17:15:24,901 [http-bio-8080-exec-8] INFO  [localhost].[/UserData]  - GSP servlet initialized
+2016-02-10 17:15:55,336 [http-bio-8080-exec-9] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 17:15:55,339 [http-bio-8080-exec-9] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 17:15:55,339 [http-bio-8080-exec-9] INFO  userdata.PersonController  - 33
+2016-02-10 17:15:55,339 [http-bio-8080-exec-9] INFO  userdata.PersonController  - ccccc
+2016-02-10 17:15:55,340 [http-bio-8080-exec-9] INFO  userdata.PersonController  - vvvvv
+2016-02-10 17:15:55,340 [http-bio-8080-exec-9] INFO  userdata.PersonController  - 24
+2016-02-10 17:15:55,340 [http-bio-8080-exec-9] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 17:15:55,340 [http-bio-8080-exec-9] INFO  userdata.PersonController  - ************************
+2016-02-10 17:15:55,430 [http-bio-8080-exec-9] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 17:15:55,569 [http-bio-8080-exec-9] INFO  userdata.PersonService  - PersonService getInstance 
+2016-02-10 17:15:55,589 [http-bio-8080-exec-9] INFO  userdata.PersonService  - PersonService save-Object 
+2016-02-10 17:15:55,865 [http-bio-8080-exec-9] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 17:15:55,867 [http-bio-8080-exec-9] INFO  userdata.PersonController  - {message=Person Class Object Data inserted successfully, status=success}
+2016-02-10 17:15:55,932 [http-bio-8080-exec-9] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 17:18:00,314 [http-bio-8080-exec-4] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 17:18:00,315 [http-bio-8080-exec-4] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 17:18:00,316 [http-bio-8080-exec-4] INFO  userdata.PersonController  - 31
+2016-02-10 17:18:00,316 [http-bio-8080-exec-4] INFO  userdata.PersonController  - ccccc
+2016-02-10 17:18:00,316 [http-bio-8080-exec-4] INFO  userdata.PersonController  - vvvvv
+2016-02-10 17:18:00,316 [http-bio-8080-exec-4] INFO  userdata.PersonController  - 24
+2016-02-10 17:18:00,316 [http-bio-8080-exec-4] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 17:18:00,316 [http-bio-8080-exec-4] INFO  userdata.PersonController  - ************************
+2016-02-10 17:18:00,317 [http-bio-8080-exec-4] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 17:18:00,325 [http-bio-8080-exec-4] INFO  userdata.PersonService  - PersonService getInstance 
+2016-02-10 17:18:00,326 [http-bio-8080-exec-4] INFO  userdata.PersonService  - PersonService save-Object 
+2016-02-10 17:18:00,404 [http-bio-8080-exec-4] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 17:18:00,404 [http-bio-8080-exec-4] INFO  userdata.PersonController  - {message=Person Class Object Data inserted successfully, status=success}
+2016-02-10 17:18:00,455 [http-bio-8080-exec-4] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 17:18:27,352 [http-bio-8080-exec-4] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 17:18:27,367 [http-bio-8080-exec-4] INFO  userdata.LoginController  - LoginController renderPage Action
+2016-02-10 17:19:14,561 [http-bio-8080-exec-4] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 17:19:14,561 [http-bio-8080-exec-4] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 17:19:14,562 [http-bio-8080-exec-4] INFO  userdata.PersonController  - 31
+2016-02-10 17:19:14,562 [http-bio-8080-exec-4] INFO  userdata.PersonController  - ccccc
+2016-02-10 17:19:14,562 [http-bio-8080-exec-4] INFO  userdata.PersonController  - vvvvv
+2016-02-10 17:19:14,562 [http-bio-8080-exec-4] INFO  userdata.PersonController  - 24
+2016-02-10 17:19:14,562 [http-bio-8080-exec-4] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 17:19:14,562 [http-bio-8080-exec-4] INFO  userdata.PersonController  - ************************
+2016-02-10 17:19:14,563 [http-bio-8080-exec-4] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 17:19:14,572 [http-bio-8080-exec-4] INFO  userdata.PersonService  - PersonService getInstance 
+2016-02-10 17:19:14,578 [http-bio-8080-exec-4] INFO  userdata.PersonService  - PersonService save-Object 
+2016-02-10 17:19:14,692 [http-bio-8080-exec-4] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 17:19:14,692 [http-bio-8080-exec-4] INFO  userdata.PersonController  - {message=Person Class Object Data inserted successfully, status=success}
+2016-02-10 17:19:14,747 [http-bio-8080-exec-4] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 17:19:34,066 [http-bio-8080-exec-4] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 17:19:34,070 [http-bio-8080-exec-4] INFO  userdata.LoginController  - LoginController renderPage Action
+2016-02-10 17:43:13,816 [Thread-8] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-10 17:43:13,816 [Thread-10] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-10 17:43:14,745 [Thread-10] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-10 17:43:14,844 [Thread-8] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-10 17:43:18,418 [Thread-3] INFO  http11.Http11Protocol  - Pausing ProtocolHandler ["http-bio-8080"]
+2016-02-10 17:43:18,469 [Thread-3] INFO  core.StandardService  - Stopping service Tomcat
+2016-02-10 17:43:18,481 [localhost-startStop-2] INFO  [localhost].[/UserData]  - Destroying Spring FrameworkServlet 'grails'
+2016-02-10 17:43:18,527 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in userdata.Person
+2016-02-10 17:43:18,533 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in userdata.Person
+2016-02-10 17:43:18,537 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in userdata.Person
+2016-02-10 17:43:18,586 [localhost-startStop-2] INFO  [localhost].[/UserData]  - Destroying Spring FrameworkServlet 'gsp'
+2016-02-10 17:43:18,594 [Thread-3] INFO  http11.Http11Protocol  - Stopping ProtocolHandler ["http-bio-8080"]
+2016-02-10 17:43:18,597 [Thread-3] INFO  http11.Http11Protocol  - Destroying ProtocolHandler ["http-bio-8080"]
+2016-02-10 17:43:42,800 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 17:43:42,832 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 17:43:43,297 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-10 17:43:43,304 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-10 17:43:52,013 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring root WebApplicationContext
+2016-02-10 17:44:00,372 [localhost-startStop-1] INFO  hibernate4.HibernatePluginSupport  - Set db generation strategy to 'update' for datasource DEFAULT
+2016-02-10 17:44:01,113 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanDefinitionRegistry start
+2016-02-10 17:44:01,128 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanFactory
+2016-02-10 17:44:02,365 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-10 17:44:02,536 [localhost-startStop-1] WARN  config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/SYS-25/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+2016-02-10 17:44:05,487 [localhost-startStop-1] INFO  scaffolding.AbstractGrailsTemplateGenerator  - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@3b108e32: startup date [Wed Feb 10 17:44:00 IST 2016]; parent: Root WebApplicationContext]
+2016-02-10 17:44:11,030 [localhost-startStop-1] INFO  databasemigration.MigrationRunner  - updateOnStart disabled for dataSource; not running migrations
+2016-02-10 17:44:11,077 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - configuring scaffolding...
+2016-02-10 17:44:11,084 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - done configuring scaffolding.
+2016-02-10 17:44:11,171 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-10 17:44:11,173 [localhost-startStop-1] INFO  context.GrailsConfigUtils  - [GrailsContextLoader] Grails application loaded.
+2016-02-10 17:44:11,440 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'grails'
+2016-02-10 17:44:11,528 [main] INFO  http11.Http11Protocol  - Starting ProtocolHandler ["http-bio-8080"]
+2016-02-10 17:44:30,355 [http-bio-8080-exec-5] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'gsp'
+2016-02-10 17:44:30,355 [http-bio-8080-exec-5] INFO  [localhost].[/UserData]  - GSP servlet initialized
+2016-02-10 17:44:46,174 [http-bio-8080-exec-6] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 17:44:46,186 [http-bio-8080-exec-6] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 17:44:46,186 [http-bio-8080-exec-6] INFO  userdata.PersonController  - 3
+2016-02-10 17:44:46,186 [http-bio-8080-exec-6] INFO  userdata.PersonController  - ccccc
+2016-02-10 17:44:46,186 [http-bio-8080-exec-6] INFO  userdata.PersonController  - vvvvv
+2016-02-10 17:44:46,186 [http-bio-8080-exec-6] INFO  userdata.PersonController  - 24
+2016-02-10 17:44:46,186 [http-bio-8080-exec-6] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 17:44:46,186 [http-bio-8080-exec-6] INFO  userdata.PersonController  - ************************
+2016-02-10 17:44:46,268 [http-bio-8080-exec-6] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 17:44:46,554 [http-bio-8080-exec-6] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 17:44:46,554 [http-bio-8080-exec-6] INFO  userdata.PersonController  - {message=Person Class Object Already Exist, status=error}
+2016-02-10 17:44:46,631 [http-bio-8080-exec-6] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 17:45:53,529 [http-bio-8080-exec-3] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 17:45:53,531 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 17:45:53,531 [http-bio-8080-exec-3] INFO  userdata.PersonController  - 4
+2016-02-10 17:45:53,531 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ccccc
+2016-02-10 17:45:53,531 [http-bio-8080-exec-3] INFO  userdata.PersonController  - vvvvv
+2016-02-10 17:45:53,531 [http-bio-8080-exec-3] INFO  userdata.PersonController  - 24
+2016-02-10 17:45:53,531 [http-bio-8080-exec-3] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 17:45:53,532 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ************************
+2016-02-10 17:45:53,532 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 17:45:53,544 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 17:45:53,544 [http-bio-8080-exec-3] INFO  userdata.PersonController  - {message=Person Class Object Already Exist, status=error}
+2016-02-10 17:45:53,602 [http-bio-8080-exec-3] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 17:46:11,595 [http-bio-8080-exec-3] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 17:46:11,597 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 17:46:11,597 [http-bio-8080-exec-3] INFO  userdata.PersonController  - 16
+2016-02-10 17:46:11,597 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ccccc
+2016-02-10 17:46:11,597 [http-bio-8080-exec-3] INFO  userdata.PersonController  - vvvvv
+2016-02-10 17:46:11,597 [http-bio-8080-exec-3] INFO  userdata.PersonController  - 24
+2016-02-10 17:46:11,597 [http-bio-8080-exec-3] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 17:46:11,598 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ************************
+2016-02-10 17:46:11,598 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 17:46:11,602 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService getInstance 
+2016-02-10 17:46:11,629 [http-bio-8080-exec-3] INFO  userdata.PersonService  - PersonService save-Object 
+2016-02-10 17:46:11,804 [http-bio-8080-exec-3] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 17:46:11,804 [http-bio-8080-exec-3] INFO  userdata.PersonController  - {message=Person Class Object Data inserted successfully, status=success}
+2016-02-10 17:46:11,865 [http-bio-8080-exec-3] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-10 17:49:18,980 [http-bio-8080-exec-7] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-10 17:49:18,981 [http-bio-8080-exec-7] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-10 17:49:18,981 [http-bio-8080-exec-7] INFO  userdata.PersonController  - 28
+2016-02-10 17:49:18,981 [http-bio-8080-exec-7] INFO  userdata.PersonController  - vinay
+2016-02-10 17:49:18,981 [http-bio-8080-exec-7] INFO  userdata.PersonController  - kumar
+2016-02-10 17:49:18,981 [http-bio-8080-exec-7] INFO  userdata.PersonController  - 34
+2016-02-10 17:49:18,981 [http-bio-8080-exec-7] INFO  userdata.PersonController  - vvv@yahoo.com
+2016-02-10 17:49:18,982 [http-bio-8080-exec-7] INFO  userdata.PersonController  - ************************
+2016-02-10 17:49:18,983 [http-bio-8080-exec-7] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-10 17:49:18,985 [http-bio-8080-exec-7] INFO  userdata.PersonService  - PersonService getInstance 
+2016-02-10 17:49:18,986 [http-bio-8080-exec-7] INFO  userdata.PersonService  - PersonService save-Object 
+2016-02-10 17:49:19,102 [http-bio-8080-exec-7] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-10 17:49:19,102 [http-bio-8080-exec-7] INFO  userdata.PersonController  - {message=Person Class Object Data inserted successfully, status=success}
+2016-02-10 17:49:19,154 [http-bio-8080-exec-7] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-11 09:37:43,991 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-11 09:37:44,072 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-11 09:37:44,904 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-11 09:37:44,914 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-11 09:39:02,408 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-11 09:39:02,438 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-11 09:39:02,931 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-11 09:39:02,941 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-11 09:39:11,816 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring root WebApplicationContext
+2016-02-11 09:39:19,737 [localhost-startStop-1] INFO  hibernate4.HibernatePluginSupport  - Set db generation strategy to 'update' for datasource DEFAULT
+2016-02-11 09:39:20,468 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanDefinitionRegistry start
+2016-02-11 09:39:20,478 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanFactory
+2016-02-11 09:39:22,158 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-11 09:39:22,320 [localhost-startStop-1] WARN  config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/SYS-25/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+2016-02-11 09:39:25,740 [localhost-startStop-1] INFO  scaffolding.AbstractGrailsTemplateGenerator  - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@19268ea7: startup date [Thu Feb 11 09:39:20 IST 2016]; parent: Root WebApplicationContext]
+2016-02-11 09:39:30,555 [localhost-startStop-1] INFO  databasemigration.MigrationRunner  - updateOnStart disabled for dataSource; not running migrations
+2016-02-11 09:39:30,606 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - configuring scaffolding...
+2016-02-11 09:39:30,616 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - done configuring scaffolding.
+2016-02-11 09:39:30,696 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-11 09:39:30,696 [localhost-startStop-1] INFO  context.GrailsConfigUtils  - [GrailsContextLoader] Grails application loaded.
+2016-02-11 09:39:31,026 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'grails'
+2016-02-11 09:39:31,156 [main] INFO  http11.Http11Protocol  - Starting ProtocolHandler ["http-bio-8080"]
+2016-02-11 09:40:32,358 [http-bio-8080-exec-5] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'gsp'
+2016-02-11 09:40:32,361 [http-bio-8080-exec-5] INFO  [localhost].[/UserData]  - GSP servlet initialized
+2016-02-11 09:53:52,388 [http-bio-8080-exec-1] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-11 09:53:52,391 [http-bio-8080-exec-1] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-11 09:53:52,391 [http-bio-8080-exec-1] INFO  userdata.PersonController  - 18
+2016-02-11 09:53:52,391 [http-bio-8080-exec-1] INFO  userdata.PersonController  - vinay
+2016-02-11 09:53:52,391 [http-bio-8080-exec-1] INFO  userdata.PersonController  - kumar
+2016-02-11 09:53:52,391 [http-bio-8080-exec-1] INFO  userdata.PersonController  - 24
+2016-02-11 09:53:52,391 [http-bio-8080-exec-1] INFO  userdata.PersonController  - vin@yahoo.com
+2016-02-11 09:53:52,391 [http-bio-8080-exec-1] INFO  userdata.PersonController  - ************************
+2016-02-11 09:53:52,467 [http-bio-8080-exec-1] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-11 09:53:52,579 [http-bio-8080-exec-1] INFO  userdata.PersonService  - PersonService getInstance 
+2016-02-11 09:53:52,599 [http-bio-8080-exec-1] INFO  userdata.PersonService  - PersonService save-Object 
+2016-02-11 09:53:52,939 [http-bio-8080-exec-1] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-11 09:53:52,939 [http-bio-8080-exec-1] INFO  userdata.PersonController  - {message=Person Class Object Data inserted successfully, status=success}
+2016-02-11 09:53:53,007 [http-bio-8080-exec-1] INFO  [localhost].[/UserData]  - GroovyPagesServlet:  "/WEB-INF/grails-app/views/person/myservice.gsp" not found
+2016-02-11 10:17:36,947 [Thread-10] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\controllers\userdata\PersonController.groovy] changed. Applying changes to application.
+2016-02-11 10:17:37,007 [Thread-8] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\controllers\userdata\PersonController.groovy] changed. Applying changes to application.
+2016-02-11 10:29:26,836 [Thread-8] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-11 10:29:26,836 [Thread-10] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-11 10:29:27,840 [Thread-10] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-11 10:29:28,049 [Thread-8] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-11 10:38:01,430 [Thread-10] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-11 10:38:01,460 [Thread-8] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-11 10:39:08,482 [Thread-3] INFO  http11.Http11Protocol  - Pausing ProtocolHandler ["http-bio-8080"]
+2016-02-11 10:39:08,541 [Thread-3] INFO  core.StandardService  - Stopping service Tomcat
+2016-02-11 10:39:08,541 [localhost-startStop-2] INFO  [localhost].[/UserData]  - Destroying Spring FrameworkServlet 'grails'
+2016-02-11 10:39:08,581 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in userdata.Person
+2016-02-11 10:39:08,591 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in userdata.Person
+2016-02-11 10:39:08,601 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in userdata.Person
+2016-02-11 10:39:08,693 [localhost-startStop-2] INFO  [localhost].[/UserData]  - Destroying Spring FrameworkServlet 'gsp'
+2016-02-11 10:39:08,703 [Thread-3] INFO  http11.Http11Protocol  - Stopping ProtocolHandler ["http-bio-8080"]
+2016-02-11 10:39:08,713 [Thread-3] INFO  http11.Http11Protocol  - Destroying ProtocolHandler ["http-bio-8080"]
+2016-02-11 10:39:33,224 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-11 10:39:33,255 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-11 10:39:33,645 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-11 10:39:33,655 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-11 10:39:42,033 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring root WebApplicationContext
+2016-02-11 10:39:50,570 [localhost-startStop-1] INFO  hibernate4.HibernatePluginSupport  - Set db generation strategy to 'update' for datasource DEFAULT
+2016-02-11 10:39:51,584 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanDefinitionRegistry start
+2016-02-11 10:39:51,594 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanFactory
+2016-02-11 10:39:52,725 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-11 10:39:52,886 [localhost-startStop-1] WARN  config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/SYS-25/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+2016-02-11 10:39:55,756 [localhost-startStop-1] INFO  scaffolding.AbstractGrailsTemplateGenerator  - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@6b584128: startup date [Thu Feb 11 10:39:51 IST 2016]; parent: Root WebApplicationContext]
+2016-02-11 10:40:00,239 [localhost-startStop-1] INFO  databasemigration.MigrationRunner  - updateOnStart disabled for dataSource; not running migrations
+2016-02-11 10:40:00,290 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - configuring scaffolding...
+2016-02-11 10:40:00,290 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - done configuring scaffolding.
+2016-02-11 10:40:00,380 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-11 10:40:00,380 [localhost-startStop-1] INFO  context.GrailsConfigUtils  - [GrailsContextLoader] Grails application loaded.
+2016-02-11 10:40:00,620 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'grails'
+2016-02-11 10:40:00,710 [main] INFO  http11.Http11Protocol  - Starting ProtocolHandler ["http-bio-8080"]
+2016-02-11 10:41:10,898 [http-bio-8080-exec-5] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'gsp'
+2016-02-11 10:41:10,899 [http-bio-8080-exec-5] INFO  [localhost].[/UserData]  - GSP servlet initialized
+2016-02-11 10:42:30,926 [http-bio-8080-exec-1] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-11 10:42:31,014 [http-bio-8080-exec-1] INFO  userdata.PersonService  - personService update
+2016-02-11 10:42:31,199 [http-bio-8080-exec-1] INFO  userdata.PersonService  - personService update Exception
+2016-02-11 10:42:31,222 [http-bio-8080-exec-1] INFO  userdata.LoginController  - LoginController renderPage Action
+2016-02-11 10:47:43,322 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-11 10:47:43,366 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-11 10:47:44,242 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-11 10:47:44,252 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-11 10:47:45,347 [Thread-3] INFO  http11.Http11Protocol  - Pausing ProtocolHandler ["http-bio-8080"]
+2016-02-11 10:47:45,398 [Thread-3] INFO  core.StandardService  - Stopping service Tomcat
+2016-02-11 10:47:45,398 [localhost-startStop-2] INFO  [localhost].[/UserData]  - Destroying Spring FrameworkServlet 'grails'
+2016-02-11 10:47:45,468 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in userdata.Person
+2016-02-11 10:47:45,468 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in userdata.Person
+2016-02-11 10:47:45,468 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in userdata.Person
+2016-02-11 10:47:45,566 [localhost-startStop-2] INFO  [localhost].[/UserData]  - Destroying Spring FrameworkServlet 'gsp'
+2016-02-11 10:47:45,574 [Thread-3] INFO  http11.Http11Protocol  - Stopping ProtocolHandler ["http-bio-8080"]
+2016-02-11 10:47:45,576 [Thread-3] INFO  http11.Http11Protocol  - Destroying ProtocolHandler ["http-bio-8080"]
+2016-02-11 10:48:17,205 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-11 10:48:17,246 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-11 10:48:18,330 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-11 10:48:18,340 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-11 10:48:26,570 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring root WebApplicationContext
+2016-02-11 10:48:34,051 [localhost-startStop-1] INFO  hibernate4.HibernatePluginSupport  - Set db generation strategy to 'update' for datasource DEFAULT
+2016-02-11 10:48:35,114 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanDefinitionRegistry start
+2016-02-11 10:48:35,124 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanFactory
+2016-02-11 10:48:36,275 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-11 10:48:36,416 [localhost-startStop-1] WARN  config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/SYS-25/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+2016-02-11 10:48:39,358 [localhost-startStop-1] INFO  scaffolding.AbstractGrailsTemplateGenerator  - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@337633d4: startup date [Thu Feb 11 10:48:34 IST 2016]; parent: Root WebApplicationContext]
+2016-02-11 10:48:43,813 [localhost-startStop-1] INFO  databasemigration.MigrationRunner  - updateOnStart disabled for dataSource; not running migrations
+2016-02-11 10:48:43,864 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - configuring scaffolding...
+2016-02-11 10:48:43,864 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - done configuring scaffolding.
+2016-02-11 10:48:43,954 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-11 10:48:43,954 [localhost-startStop-1] INFO  context.GrailsConfigUtils  - [GrailsContextLoader] Grails application loaded.
+2016-02-11 10:48:44,204 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'grails'
+2016-02-11 10:48:44,294 [main] INFO  http11.Http11Protocol  - Starting ProtocolHandler ["http-bio-8080"]
+2016-02-11 10:49:00,791 [http-bio-8080-exec-7] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'gsp'
+2016-02-11 10:49:00,792 [http-bio-8080-exec-7] INFO  [localhost].[/UserData]  - GSP servlet initialized
+2016-02-11 10:54:06,833 [http-bio-8080-exec-3] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-11 10:54:06,915 [http-bio-8080-exec-3] INFO  userdata.PersonService  - personService update
+2016-02-11 10:54:07,011 [http-bio-8080-exec-3] INFO  userdata.PersonService  - personService update Exception
+2016-02-11 10:54:07,021 [http-bio-8080-exec-3] INFO  userdata.LoginController  - LoginController renderPage Action
+2016-02-11 11:00:41,160 [Thread-10] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-11 11:00:41,180 [Thread-8] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-11 11:00:41,330 [Thread-10] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-11 11:00:44,922 [Thread-3] INFO  http11.Http11Protocol  - Pausing ProtocolHandler ["http-bio-8080"]
+2016-02-11 11:00:44,973 [Thread-3] INFO  core.StandardService  - Stopping service Tomcat
+2016-02-11 11:00:44,973 [localhost-startStop-2] INFO  [localhost].[/UserData]  - Destroying Spring FrameworkServlet 'grails'
+2016-02-11 11:00:45,033 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property staticGormStaticApi in userdata.Person
+2016-02-11 11:00:45,033 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormInstanceApi in userdata.Person
+2016-02-11 11:00:45,033 [localhost-startStop-2] INFO  domain.GrailsDomainClassCleaner  - Clearing static property instanceGormValidationApi in userdata.Person
+2016-02-11 11:00:45,083 [localhost-startStop-2] INFO  [localhost].[/UserData]  - Destroying Spring FrameworkServlet 'gsp'
+2016-02-11 11:00:45,083 [Thread-3] INFO  http11.Http11Protocol  - Stopping ProtocolHandler ["http-bio-8080"]
+2016-02-11 11:00:45,083 [Thread-3] INFO  http11.Http11Protocol  - Destroying ProtocolHandler ["http-bio-8080"]
+2016-02-11 11:01:09,428 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-11 11:01:09,458 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-11 11:01:09,949 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-11 11:01:09,959 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-11 11:01:18,280 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring root WebApplicationContext
+2016-02-11 11:01:26,147 [localhost-startStop-1] INFO  hibernate4.HibernatePluginSupport  - Set db generation strategy to 'update' for datasource DEFAULT
+2016-02-11 11:01:26,788 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanDefinitionRegistry start
+2016-02-11 11:01:26,798 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanFactory
+2016-02-11 11:01:28,018 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-11 11:01:28,159 [localhost-startStop-1] WARN  config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/SYS-25/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+2016-02-11 11:01:31,139 [localhost-startStop-1] INFO  scaffolding.AbstractGrailsTemplateGenerator  - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@9dd7f4b: startup date [Thu Feb 11 11:01:26 IST 2016]; parent: Root WebApplicationContext]
+2016-02-11 11:01:36,056 [localhost-startStop-1] INFO  databasemigration.MigrationRunner  - updateOnStart disabled for dataSource; not running migrations
+2016-02-11 11:01:36,097 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - configuring scaffolding...
+2016-02-11 11:01:36,107 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - done configuring scaffolding.
+2016-02-11 11:01:36,187 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-11 11:01:36,187 [localhost-startStop-1] INFO  context.GrailsConfigUtils  - [GrailsContextLoader] Grails application loaded.
+2016-02-11 11:01:36,457 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'grails'
+2016-02-11 11:01:36,547 [main] INFO  http11.Http11Protocol  - Starting ProtocolHandler ["http-bio-8080"]
+2016-02-11 11:02:18,591 [http-bio-8080-exec-5] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'gsp'
+2016-02-11 11:02:18,592 [http-bio-8080-exec-5] INFO  [localhost].[/UserData]  - GSP servlet initialized
+2016-02-11 11:02:36,771 [http-bio-8080-exec-6] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-11 11:02:36,857 [http-bio-8080-exec-6] INFO  userdata.PersonService  - personService update
+2016-02-11 11:02:37,050 [http-bio-8080-exec-6] INFO  userdata.PersonService  - PersonService save-Object 
+2016-02-11 11:02:37,486 [http-bio-8080-exec-6] INFO  userdata.LoginController  - LoginController renderPage Action
+2016-02-11 11:06:21,510 [http-bio-8080-exec-10] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-11 11:06:21,512 [http-bio-8080-exec-10] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-11 11:06:21,512 [http-bio-8080-exec-10] INFO  userdata.PersonController  - 29
+2016-02-11 11:06:21,512 [http-bio-8080-exec-10] INFO  userdata.PersonController  - vinay
+2016-02-11 11:06:21,512 [http-bio-8080-exec-10] INFO  userdata.PersonController  - kumar
+2016-02-11 11:06:21,512 [http-bio-8080-exec-10] INFO  userdata.PersonController  - 28
+2016-02-11 11:06:21,512 [http-bio-8080-exec-10] INFO  userdata.PersonController  - v@gmail.com
+2016-02-11 11:06:21,513 [http-bio-8080-exec-10] INFO  userdata.PersonController  - ************************
+2016-02-11 11:06:21,535 [http-bio-8080-exec-10] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-11 11:06:21,546 [http-bio-8080-exec-10] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-11 11:06:21,546 [http-bio-8080-exec-10] INFO  userdata.PersonController  - {message=Person Class Object Already Exist, status=error}
+2016-02-11 11:06:21,546 [http-bio-8080-exec-10] INFO  userdata.LoginController  - LoginController renderPage Action
+2016-02-11 11:06:36,330 [http-bio-8080-exec-10] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-11 11:06:36,330 [http-bio-8080-exec-10] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-11 11:06:36,331 [http-bio-8080-exec-10] INFO  userdata.PersonController  - 30
+2016-02-11 11:06:36,331 [http-bio-8080-exec-10] INFO  userdata.PersonController  - vinay
+2016-02-11 11:06:36,331 [http-bio-8080-exec-10] INFO  userdata.PersonController  - kumar
+2016-02-11 11:06:36,331 [http-bio-8080-exec-10] INFO  userdata.PersonController  - 28
+2016-02-11 11:06:36,331 [http-bio-8080-exec-10] INFO  userdata.PersonController  - v@gmail.com
+2016-02-11 11:06:36,331 [http-bio-8080-exec-10] INFO  userdata.PersonController  - ************************
+2016-02-11 11:06:36,332 [http-bio-8080-exec-10] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-11 11:06:36,335 [http-bio-8080-exec-10] INFO  userdata.PersonService  - PersonService getInstance 
+2016-02-11 11:06:36,350 [http-bio-8080-exec-10] INFO  userdata.PersonService  - PersonService save-Object 
+2016-02-11 11:06:36,526 [http-bio-8080-exec-10] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-11 11:06:36,526 [http-bio-8080-exec-10] INFO  userdata.PersonController  - {message=Person Class Object Data inserted successfully, status=success}
+2016-02-11 11:06:36,526 [http-bio-8080-exec-10] INFO  userdata.LoginController  - LoginController renderPage Action
+2016-02-11 11:08:54,003 [http-bio-8080-exec-8] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-11 11:08:54,029 [http-bio-8080-exec-8] INFO  userdata.PersonService  - personService delete
+2016-02-11 11:08:54,216 [http-bio-8080-exec-8] INFO  userdata.LoginController  - LoginController renderPage Action
+2016-02-11 11:11:27,303 [Thread-8] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-11 11:11:27,223 [Thread-10] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-11 11:11:59,165 [http-bio-8080-exec-5] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-11 11:11:59,190 [http-bio-8080-exec-5] INFO  userdata.PersonService  - personService delete
+2016-02-11 11:11:59,370 [http-bio-8080-exec-5] INFO  userdata.LoginController  - LoginController renderPage Action
+2016-02-11 15:41:51,506 [Thread-10] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-11 15:41:51,580 [Thread-8] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-11 15:55:03,296 [Thread-8] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-11 15:55:03,329 [Thread-10] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-11 15:55:04,124 [Thread-8] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-11 15:55:04,232 [Thread-10] INFO  compiler.GrailsProjectWatcher  - File [C:\Users\SYS-25\Documents\workspace-ggts1\UserData\grails-app\services\userdata\PersonService.groovy] changed. Applying changes to application.
+2016-02-15 11:11:08,428 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-15 11:11:08,493 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-15 11:11:10,775 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-15 11:11:10,784 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-15 11:12:00,849 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-15 11:12:00,892 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-15 11:12:01,815 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-15 11:12:01,821 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-15 11:12:49,527 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-15 11:12:49,570 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-15 11:12:50,571 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-15 11:12:50,578 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-15 11:13:37,839 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-15 11:13:37,884 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-15 11:13:38,492 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-15 11:13:38,502 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-15 11:14:06,074 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-15 11:14:06,103 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-15 11:14:06,476 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-15 11:14:06,481 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-15 11:15:21,539 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-15 11:15:21,574 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-15 11:15:22,004 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-15 11:15:22,011 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-15 11:17:00,452 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-15 11:17:00,500 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-15 11:17:01,032 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-15 11:17:01,041 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-15 11:21:01,213 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-15 11:21:01,241 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-15 11:21:02,253 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-15 11:21:02,263 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-15 11:22:32,401 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-15 11:22:32,436 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-15 11:22:33,576 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-15 11:22:33,586 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-15 11:26:06,097 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-15 11:26:06,143 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-15 11:26:07,121 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-15 11:26:07,130 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-15 11:28:38,949 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-15 11:28:38,992 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-15 11:28:39,577 [main] INFO  webxml.WebxmlGrailsPlugin  - Loading default config file: class DefaultWebXmlConfig
+2016-02-15 11:28:39,586 [main] WARN  webxml.WebxmlGrailsPlugin  - Did not find application config file: WebXmlConfig
+2016-02-15 11:28:56,905 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring root WebApplicationContext
+2016-02-15 11:29:07,407 [localhost-startStop-1] INFO  hibernate4.HibernatePluginSupport  - Set db generation strategy to 'update' for datasource DEFAULT
+2016-02-15 11:29:09,117 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanDefinitionRegistry start
+2016-02-15 11:29:09,147 [localhost-startStop-1] INFO  cache.CacheBeanPostProcessor  - postProcessBeanFactory
+2016-02-15 11:29:14,482 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-15 11:29:15,107 [localhost-startStop-1] WARN  config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/SYS-25/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+2016-02-15 11:29:21,644 [localhost-startStop-1] INFO  scaffolding.AbstractGrailsTemplateGenerator  - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@5924fdc3: startup date [Mon Feb 15 11:29:08 IST 2016]; parent: Root WebApplicationContext]
+2016-02-15 11:29:28,522 [localhost-startStop-1] INFO  databasemigration.MigrationRunner  - updateOnStart disabled for dataSource; not running migrations
+2016-02-15 11:29:28,603 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - configuring scaffolding...
+2016-02-15 11:29:28,610 [localhost-startStop-1] INFO  ScaffoldingGrailsPlugin  - done configuring scaffolding.
+2016-02-15 11:29:28,751 [localhost-startStop-1] WARN  util.GrailsUtil  - [WARNING] Property [id] of domain class userdata.Person has type [int] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-02-15 11:29:28,752 [localhost-startStop-1] INFO  context.GrailsConfigUtils  - [GrailsContextLoader] Grails application loaded.
+2016-02-15 11:29:29,281 [localhost-startStop-1] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'grails'
+2016-02-15 11:29:29,602 [main] INFO  http11.Http11Protocol  - Starting ProtocolHandler ["http-bio-8090"]
+2016-02-15 11:29:51,899 [http-bio-8090-exec-6] INFO  [localhost].[/UserData]  - Initializing Spring FrameworkServlet 'gsp'
+2016-02-15 11:29:51,900 [http-bio-8090-exec-6] INFO  [localhost].[/UserData]  - GSP servlet initialized
+2016-02-15 11:30:39,251 [http-bio-8090-exec-3] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-15 11:30:39,254 [http-bio-8090-exec-3] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-15 11:30:39,254 [http-bio-8090-exec-3] INFO  userdata.PersonController  - 30
+2016-02-15 11:30:39,255 [http-bio-8090-exec-3] INFO  userdata.PersonController  - vinay
+2016-02-15 11:30:39,255 [http-bio-8090-exec-3] INFO  userdata.PersonController  - kumar
+2016-02-15 11:30:39,255 [http-bio-8090-exec-3] INFO  userdata.PersonController  - 28
+2016-02-15 11:30:39,255 [http-bio-8090-exec-3] INFO  userdata.PersonController  - v@gmail.com
+2016-02-15 11:30:39,255 [http-bio-8090-exec-3] INFO  userdata.PersonController  - ************************
+2016-02-15 11:30:39,427 [http-bio-8090-exec-3] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-15 11:30:39,570 [http-bio-8090-exec-3] INFO  userdata.PersonService  - PersonService getInstance 
+2016-02-15 11:30:39,611 [http-bio-8090-exec-3] INFO  userdata.PersonService  - PersonService save-Object 
+2016-02-15 11:30:39,955 [http-bio-8090-exec-3] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-15 11:30:39,955 [http-bio-8090-exec-3] INFO  userdata.PersonController  - {message=Person Class Object Data inserted successfully, status=success}
+2016-02-15 11:30:39,959 [http-bio-8090-exec-3] INFO  userdata.LoginController  - LoginController renderPage Action
+2016-02-15 11:34:29,658 [http-bio-8090-exec-7] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-15 11:34:29,660 [http-bio-8090-exec-7] INFO  userdata.PersonController  - ***********person controller*****
+2016-02-15 11:34:29,660 [http-bio-8090-exec-7] INFO  userdata.PersonController  - 30
+2016-02-15 11:34:29,660 [http-bio-8090-exec-7] INFO  userdata.PersonController  - vinay
+2016-02-15 11:34:29,660 [http-bio-8090-exec-7] INFO  userdata.PersonController  - kumar
+2016-02-15 11:34:29,660 [http-bio-8090-exec-7] INFO  userdata.PersonController  - 28
+2016-02-15 11:34:29,661 [http-bio-8090-exec-7] INFO  userdata.PersonController  - v@gmail.com
+2016-02-15 11:34:29,661 [http-bio-8090-exec-7] INFO  userdata.PersonController  - ************************
+2016-02-15 11:34:29,662 [http-bio-8090-exec-7] INFO  userdata.PersonService  - PersonService save-params 
+2016-02-15 11:34:29,671 [http-bio-8090-exec-7] INFO  userdata.PersonService  - PersonService getInstance 
+2016-02-15 11:34:29,672 [http-bio-8090-exec-7] INFO  userdata.PersonService  - PersonService save-Object 
+2016-02-15 11:34:29,824 [http-bio-8090-exec-7] INFO  userdata.PersonController  - ****&&&&&&
+2016-02-15 11:34:29,825 [http-bio-8090-exec-7] INFO  userdata.PersonController  - {message=Person Class Object Data inserted successfully, status=success}
+2016-02-15 11:34:29,825 [http-bio-8090-exec-7] INFO  userdata.LoginController  - LoginController renderPage Action
+2016-02-15 11:36:44,888 [http-bio-8090-exec-2] INFO  userdata.PersonController  - Person Controller myservice action
+2016-02-15 11:36:44,993 [http-bio-8090-exec-2] INFO  userdata.PersonService  - personService update
+2016-02-15 11:36:45,005 [http-bio-8090-exec-2] INFO  userdata.PersonService  - PersonService save-Object 
+2016-02-15 11:36:45,195 [http-bio-8090-exec-2] INFO  userdata.LoginController  - LoginController renderPage Action
